@@ -303,6 +303,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  thailand: {
+    hero: {
+      src: "/images/thailand/hero.jpg",
+      alt: "A traditional wooden longtail boat drifting on a calm Thai seascape at dusk",
+    },
+    attractions: {
+      "Grand Palace & Wat Phra Kaew, Bangkok": {
+        src: "/images/thailand/grand-palace.jpg",
+        alt: "Gilded and mirror-mosaic yaksha guardian statues supporting a golden chedi within the Grand Palace complex",
+      },
+      "Wat Arun": {
+        src: "/images/thailand/wat-arun.jpg",
+        alt: "Wat Arun's tall central prang encrusted with porcelain-shard mosaic, flanked by smaller satellite spires",
+      },
+      "Wat Pho": {
+        src: "/images/thailand/wat-pho.jpg",
+        alt: "Close-up of the gold-plated Reclining Buddha's face and shoulder at Wat Pho, patterned temple ceiling above",
+      },
+      "Phi Phi Islands & Maya Bay": {
+        src: "/images/thailand/phi-phi-maya-bay.jpg",
+        alt: "Maya Bay's turquoise water meeting a white-sand beach, framed by towering limestone cliffs",
+      },
+      "Phang Nga Bay": {
+        src: "/images/thailand/phang-nga-bay.jpg",
+        alt: "Ko Tapu, the top-heavy limestone needle rock known as James Bond Island, rising from Phang Nga Bay with a longtail boat passing",
+      },
+      "Railay, Krabi": {
+        src: "/images/thailand/railay-krabi.jpg",
+        alt: "Railay's sheer limestone cliffs bracketing a turquoise bay, swimmers and longtail boats in the water below",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
