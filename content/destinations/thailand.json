@@ -3,12 +3,53 @@
   "name": "Thailand",
   "country": "Thailand",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Golden temples, longtail boats, and a 60-day visa-free welcome",
+  "hero_description": "Thailand is the easiest big trip an Indian passport can take — visa-free for up to 60 days, a short flight away, and split neatly into two acts: Bangkok's gold-spired temples, mega-markets and street food, then the limestone-karst beaches of the Andaman coast at Phuket, Krabi and the Phi Phi islands.",
+  "best_time_to_visit": "November to February for Bangkok and November to March for the Andaman beaches — dry, sunny and around 27°C; the islands' monsoon runs roughly May to October.",
+  "top_attractions": [
+    {
+      "name": "Grand Palace & Wat Phra Kaew, Bangkok",
+      "description": "The royal complex founded in 1782, housing the Emerald Buddha — carved from a single block of green stone and re-robed seasonally by royal hands. Strict dress code applies.",
+      "image_needed": true
+    },
+    {
+      "name": "Wat Arun",
+      "description": "The 'Temple of Dawn' on the Chao Phraya river, its central spire studded with porcelain shards — best photographed at sunset from the opposite bank.",
+      "image_needed": true
+    },
+    {
+      "name": "Wat Pho",
+      "description": "Home to the 46-metre gold-plated Reclining Buddha and Thailand's traditional massage school — get an authentic Thai massage where it was codified.",
+      "image_needed": true
+    },
+    {
+      "name": "Phi Phi Islands & Maya Bay",
+      "description": "The Andaman's poster archipelago of sheer limestone karsts — Maya Bay reopened after a four-year reef-recovery closure and now runs on capped visitor numbers with no swimming in the bay itself.",
+      "image_needed": true
+    },
+    {
+      "name": "Phang Nga Bay",
+      "description": "Sea-canoe country: hidden lagoon caves and the needle rock of Khao Phing Kan, 'James Bond Island' since 1974's The Man with the Golden Gun.",
+      "image_needed": true
+    },
+    {
+      "name": "Railay, Krabi",
+      "description": "A beach peninsula sealed off by cliffs and reachable only by longtail boat — world-famous rock climbing above some of Thailand's finest sand.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Chao Phraya temple day — Grand Palace, Wat Pho and Wat Arun by river boat",
+    "Bangkok street-food night walk, from pad thai to mango sticky rice",
+    "Treasure-hunting Chatuchak's 15,000-stall weekend market",
+    "Floating market and railway market day trip",
+    "Speedboat island-hopping around Phi Phi",
+    "Sea-canoeing the caves of Phang Nga Bay",
+    "Longtail ride to Railay's cliff-framed beaches",
+    "Thai cooking class or a traditional massage afternoon",
+    "Ethical elephant sanctuary visit (observation, no riding)"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
