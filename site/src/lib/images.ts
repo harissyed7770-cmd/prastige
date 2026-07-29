@@ -207,6 +207,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  france: {
+    hero: {
+      src: "/images/france/hero.jpg",
+      alt: "The Eiffel Tower silhouetted against a deep red sunset above the domed rooftops of Paris",
+    },
+    attractions: {
+      "Eiffel Tower": {
+        src: "/images/france/eiffel-tower.jpg",
+        alt: "The illuminated Eiffel Tower at night, seen across the Seine beyond the gilded statues of Pont Alexandre III",
+      },
+      "The Louvre": {
+        src: "/images/france/louvre.jpg",
+        alt: "The Louvre's glass pyramid glowing gold at dusk, flanked by the palace's ornate stone wings",
+      },
+      "Palace of Versailles": {
+        src: "/images/france/versailles.jpg",
+        alt: "The Hall of Mirrors at Versailles, its crystal chandeliers and gilded statues lit under a frescoed vaulted ceiling",
+      },
+      "Seine river cruise": {
+        src: "/images/france/seine-notre-dame.jpg",
+        alt: "Notre-Dame's towers and spire lit up at dusk on the Île de la Cité, reflected in the Seine",
+      },
+      "Nice & the Promenade des Anglais": {
+        src: "/images/france/nice-promenade.jpg",
+        alt: "The pebble beach and curving seafront of the Promenade des Anglais in Nice, with the city stretching along the bay",
+      },
+      "Monaco & Èze": {
+        src: "/images/france/eze-monaco.jpg",
+        alt: "The medieval village of Èze perched on its rocky pinnacle above the Riviera coastline, hazy sea and hills behind",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
