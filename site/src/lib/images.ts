@@ -271,6 +271,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  uae: {
+    hero: {
+      src: "/images/uae/hero.jpg",
+      alt: "Abu Dhabi's skyline of glass towers seen across the water from the Corniche, seagulls flying overhead under a cloudy sky",
+    },
+    attractions: {
+      "Sheikh Zayed Grand Mosque, Abu Dhabi": {
+        src: "/images/uae/grand-mosque.jpg",
+        alt: "Sheikh Zayed Grand Mosque's white minarets and domes framed by a palm-lined marble approach under a clear sky",
+      },
+      "Louvre Abu Dhabi": {
+        src: "/images/uae/louvre-abu-dhabi.jpg",
+        alt: "The Louvre Abu Dhabi's perforated dome scattering a rain of light across the museum's stepped courtyard",
+      },
+      "Qasr Al Watan": {
+        src: "/images/uae/qasr-al-watan.jpg",
+        alt: "Qasr Al Watan's golden-domed ceremonial gate seen across the palace grounds, Abu Dhabi's skyline behind",
+      },
+      "Yas Island": {
+        src: "/images/uae/yas-island.jpg",
+        alt: "Aerial view of Ferrari World's distinctive red spaceframe roof spread across Yas Island, race track curling beneath it",
+      },
+      "Sharjah's museum quarter": {
+        src: "/images/uae/sharjah-museum.jpg",
+        alt: "A gallery inside the Sharjah Museum of Islamic Civilization, glass cases displaying ceramics and metalwork",
+      },
+      "Fujairah & the east coast": {
+        src: "/images/uae/fujairah.jpg",
+        alt: "The rocky peaks of the Hajar Mountains silhouetted at dusk above a winding road near Fujairah",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
