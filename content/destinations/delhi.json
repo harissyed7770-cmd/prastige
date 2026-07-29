@@ -3,12 +3,52 @@
   "name": "Delhi",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Mughal lanes and imperial avenues — three UNESCO sites in one city",
+  "hero_description": "Delhi is really two cities sharing an address: the Mughal old town of Red Fort, Jama Masjid and the food lanes of Chandni Chowk, and the broad ceremonial avenues of New Delhi around India Gate. Few capitals anywhere hold three UNESCO World Heritage monuments inside city limits — here you can walk them all in a weekend.",
+  "best_time_to_visit": "October to March — pleasant 15–25°C days that make monument-hopping easy; summer (April–June) is fiercely hot and July–September brings the monsoon.",
+  "top_attractions": [
+    {
+      "name": "Red Fort",
+      "description": "Shah Jahan's walled palace-city, begun in 1639 — over 2 km of red-sandstone ramparts that housed Mughal power for nearly two centuries, and the spot from which India's PM addresses the nation every Independence Day.",
+      "image_needed": true
+    },
+    {
+      "name": "Qutub Minar",
+      "description": "The world's tallest brick minaret at 72.5 m, begun in 1199 under Qutb ud-Din Aibak — its courtyard also holds the famous 4th-century Iron Pillar that has resisted rust for 1,600 years.",
+      "image_needed": true
+    },
+    {
+      "name": "Humayun's Tomb",
+      "description": "Commissioned in 1565 by Empress Bega Begum, this was India's first grand charbagh garden-tomb — the direct design ancestor of the Taj Mahal.",
+      "image_needed": true
+    },
+    {
+      "name": "Jama Masjid",
+      "description": "Shah Jahan's great congregational mosque, completed in 1656 — one of India's largest, its vast courtyard filling shoulder-to-shoulder at Eid.",
+      "image_needed": true
+    },
+    {
+      "name": "Chandni Chowk",
+      "description": "Old Delhi's 17th-century market spine — paratha and jalebi lanes, wedding-brocade shops, and the Khari Baoli spice market, one of Asia's largest.",
+      "image_needed": true
+    },
+    {
+      "name": "India Gate",
+      "description": "Lutyens' 42 m war-memorial arch anchoring the capital's ceremonial axis — Delhi's favourite evening lawn, at its best at blue hour.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Cycle-rickshaw ride through the lanes of Chandni Chowk",
+    "Old Delhi street-food walk — parathas, jalebis, winter-only daulat ki chaat",
+    "Morning walk among 15th-century tombs in Lodhi Garden",
+    "Evening at India Gate's lawns",
+    "Crafts and regional food at Dilli Haat",
+    "Lotus Temple and Akshardham circuit",
+    "Sufi qawwali evening at Hazrat Nizamuddin Dargah (Thursdays)",
+    "Day-trip add-on to the Taj Mahal at Agra"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
