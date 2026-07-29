@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Design tokens — single source: /site/DESIGN_SYSTEM.md. No hex anywhere else. */
+@theme {
+  --color-*: initial;
+
+  --color-primary-700: #0a4540;
+  --color-primary-600: #0e5a54;
+  --color-primary-300: #7fb5af;
+  --color-primary-100: #dff2ee;
+
+  --color-paper-0: #ffffff;
+  --color-paper-50: #faf6ef;
+  --color-paper-100: #f1eae0;
+  --color-paper-200: #ded4c4;
+
+  --color-accent-700: #93390f;
+  --color-accent-600: #a8431b;
+  --color-accent-100: #fbeadf;
+
+  --color-ink-900: #2a2620;
+  --color-ink-600: #57503f;
+  --color-ink-300: #b5ac9c;
+
+  --color-success-600: #1b6b41;
+  --color-success-100: #e3f3e9;
+  --color-warning-700: #7a5200;
+  --color-warning-100: #fff6e0;
+
+  --color-whatsapp: #25d366;
+  --color-scrim: rgb(42 38 32 / 0.6);
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-nunito);
+
+  --shadow-card: 0 1px 3px rgb(42 38 32 / 0.08);
+  --shadow-raised: 0 8px 24px rgb(42 38 32 / 0.12);
+
+  --ease-brand: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  background: var(--color-paper-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-body);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary-600);
+  outline-offset: 2px;
+}
+
+/* Fade-in on scroll: applied by <FadeIn>; element exists regardless of JS. */
+.fade-in {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 400ms var(--ease-brand),
+    transform 400ms var(--ease-brand);
+}
+.fade-in.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
