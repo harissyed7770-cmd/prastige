@@ -1,0 +1,3 @@
+# Secrets — API keys live here; never committed.
+.env
+.env.*
