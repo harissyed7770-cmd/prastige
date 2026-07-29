@@ -1,6 +1,31 @@
 {
-  "services": [],
-  "note": "Service descriptions to be written fresh in Step 4. Known offering from crawl: domestic + international tour packages from Bangalore, trip customization, WhatsApp-first enquiry.",
-  "content_status": "not_started",
+  "services": [
+    {
+      "name": "Domestic tour packages",
+      "description": "Ready-to-book holidays across India — Goa beaches, Kerala backwaters, Rajasthan's royal circuit, Himalayan Sikkim and more — each with a day-by-day plan you can adjust before confirming."
+    },
+    {
+      "name": "International tour packages",
+      "description": "Curated trips from short-haul favourites (Dubai, Thailand, Singapore, Maldives, Baku) to the European classics (Switzerland, Paris and the French Riviera), planned around Indian passports' visa realities."
+    },
+    {
+      "name": "Fully customized trips",
+      "description": "Start from a blank page: tell us your dates, budget, departure city and travel style on WhatsApp, and we build an itinerary from scratch — nothing pre-packaged."
+    },
+    {
+      "name": "Honeymoon & couples planning",
+      "description": "Romance-first versions of our routes — Maldives overwater stays, Swiss rail journeys, Kerala houseboats — with the logistics kept invisible."
+    },
+    {
+      "name": "Family holiday planning",
+      "description": "Itineraries that actually work with kids: sensible pacing, family-friendly stays, and activity days balanced with downtime."
+    },
+    {
+      "name": "Visa and travel-document guidance",
+      "description": "We tell you exactly what your destination requires of an Indian passport — Schengen appointments, e-visas, arrival cards — and help you get it right the first time."
+    }
+  ],
+  "notes_for_owner": "Service list derived from what the business observably sells (crawled package inventory + customize-trip flow) with fresh descriptions. Confirm the visa-guidance service is actually offered before it ships; remove if not.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

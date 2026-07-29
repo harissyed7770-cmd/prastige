@@ -1,11 +1,28 @@
 {
   "business_name": "Prestige Holidays 4U",
   "base_city": "Bengaluru",
-  "mission": "",
-  "vision": "",
-  "who_we_are": "",
-  "core_values": [],
-  "note": "Old-site stat claims (1000+, 50+, 5+ years) NOT carried forward — unverifiable. Founding year unknown (old footer said 'since years'). Ask owner.",
-  "content_status": "not_started",
+  "who_we_are": "Prestige Holidays 4U is a Bengaluru-based travel agency that plans domestic and international holidays the old-fashioned way: a real person on WhatsApp who knows the route, asks the right questions, and builds the trip around your dates, your budget and your pace. We're small on purpose — every itinerary that leaves our office has been shaped by someone you can call back.",
+  "mission": "To make well-planned travel feel personal again — honest itineraries, clear communication before and during the trip, and holidays matched to the people taking them rather than templates.",
+  "vision": "To be the travel partner Bengaluru families and couples recommend to each other — trusted enough that your next trip starts with a WhatsApp message to us, not a search engine.",
+  "core_values": [
+    {
+      "name": "Straight answers",
+      "description": "We tell you what a destination is really like in your travel month — including when the answer is 'wait two months and it'll be twice as good.'"
+    },
+    {
+      "name": "Personal planning",
+      "description": "Every trip is built person-to-person on WhatsApp or a call — no bots, no ticket queues."
+    },
+    {
+      "name": "Support that travels with you",
+      "description": "The number you booked with is the number that answers while you're away."
+    },
+    {
+      "name": "No surprises",
+      "description": "What's included and what's not is agreed before you pay — omissions spelled out, not discovered."
+    }
+  ],
+  "stats_note_for_owner": "FLAGGED: the old site claimed '1000+ happy travelers', '50+ destinations', '5+ years' — none verifiable, and '50+ destinations' contradicts the 14 pages that exist. The copy above deliberately uses no numbers. If you provide real figures (founding year, actual traveler count), we can add a truthful stats strip; until then the site ships without one.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
