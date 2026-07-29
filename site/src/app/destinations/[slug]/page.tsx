@@ -5,8 +5,8 @@ import { CTABand } from "@/components/CTABand";
 import { DestinationCard } from "@/components/DestinationCard";
 import { FadeIn } from "@/components/FadeIn";
 import { Calendar, Check, WhatsAppIcon } from "@/components/icons";
-import { ImageSlot } from "@/components/ImageSlot";
 import { PackageCard } from "@/components/PackageCard";
+import { SmartImage } from "@/components/SmartImage";
 import { SectionHeading } from "@/components/SectionHeading";
 import {
   getDestination,
@@ -14,6 +14,7 @@ import {
   getPackageForDestination,
   waUrl,
 } from "@/lib/content";
+import { attractionImage, destinationHero } from "@/lib/images";
 
 export function generateStaticParams() {
   return getDestinations().map((d) => ({ slug: d.slug }));
@@ -47,7 +48,13 @@ export default async function DestinationPage({
     <>
       <section className="relative flex min-h-[420px] items-end lg:h-[56vh]">
         <div className="absolute inset-0">
-          <ImageSlot label={`${d.name} — awaiting real photography`} dark />
+          <SmartImage
+            image={destinationHero(slug)}
+            label={`${d.name} — awaiting real photography`}
+            sizes="100vw"
+            priority
+            dark
+          />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-scrim to-transparent" />
         <div className="relative mx-auto w-full max-w-[1200px] px-4 pb-12 pt-32 lg:px-12">
@@ -82,8 +89,12 @@ export default async function DestinationPage({
                 {d.top_attractions.map((a, i) => (
                   <FadeIn key={a.name} delay={(i % 2) * 40}>
                     <article>
-                      <div className="aspect-[4/3] overflow-hidden rounded-xl">
-                        <ImageSlot label={a.name} />
+                      <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+                        <SmartImage
+                          image={attractionImage(slug, a.name)}
+                          label={a.name}
+                          sizes="(max-width: 640px) 100vw, 40vw"
+                        />
                       </div>
                       <h3 className="mt-4 font-display text-[1.375rem] font-semibold text-ink-900">
                         {a.name}

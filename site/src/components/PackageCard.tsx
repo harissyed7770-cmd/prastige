@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { waUrl, type Pkg } from "@/lib/content";
+import { destinationHero } from "@/lib/images";
 import { Button } from "./Button";
 import { Check, WhatsAppIcon } from "./icons";
-import { ImageSlot } from "./ImageSlot";
+import { SmartImage } from "./SmartImage";
 
 const TIER_STYLES: Record<Pkg["tier"], string> = {
   Standard: "bg-paper-100 text-ink-600",
@@ -14,7 +15,11 @@ export function PackageCard({ pkg }: { pkg: Pkg }) {
   return (
     <div className="flex flex-col overflow-hidden rounded-xl bg-paper-0 shadow-card transition-shadow duration-150 hover:shadow-raised">
       <div className="relative aspect-video overflow-hidden">
-        <ImageSlot label={pkg.name} />
+        <SmartImage
+          image={destinationHero(pkg.destination_slug)}
+          label={pkg.name}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
         <span
           className={`absolute left-3 top-3 rounded-full px-3 py-1 text-sm font-semibold ${TIER_STYLES[pkg.tier]}`}
         >

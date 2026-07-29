@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { bestTimeShort, type Destination } from "@/lib/content";
+import { destinationHero } from "@/lib/images";
 import { ArrowRight, Calendar } from "./icons";
-import { ImageSlot } from "./ImageSlot";
+import { SmartImage } from "./SmartImage";
 
 export function DestinationCard({ destination }: { destination: Destination }) {
   const d = destination;
@@ -11,8 +12,12 @@ export function DestinationCard({ destination }: { destination: Destination }) {
       className="group block overflow-hidden rounded-xl bg-paper-0 shadow-card transition-shadow duration-150 hover:shadow-raised"
     >
       <div className="relative aspect-[3/2] overflow-hidden">
-        <div className="h-full w-full transition-transform duration-300 ease-out group-hover:scale-[1.04]">
-          <ImageSlot label={d.name} />
+        <div className="relative h-full w-full transition-transform duration-300 ease-out group-hover:scale-[1.04]">
+          <SmartImage
+            image={destinationHero(d.slug)}
+            label={d.name}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
         </div>
         <span className="absolute right-3 top-3 flex items-center gap-1.5 rounded-full bg-paper-0/[0.92] px-3 py-1 text-sm font-semibold text-primary-700">
           <Calendar size={16} /> {bestTimeShort(d.slug)}

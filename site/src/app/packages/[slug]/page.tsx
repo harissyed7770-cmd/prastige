@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/Button";
 import { Calendar, Check, WhatsAppIcon } from "@/components/icons";
-import { ImageSlot } from "@/components/ImageSlot";
 import { SectionHeading } from "@/components/SectionHeading";
+import { SmartImage } from "@/components/SmartImage";
 import { getContact, getDestination, getPackage, getPackages, waUrl } from "@/lib/content";
+import { destinationHero } from "@/lib/images";
 
 const TIER_STYLES = {
   Standard: "bg-paper-100 text-ink-600",
@@ -40,7 +41,13 @@ export default async function PackagePage({
     <>
       <section className="relative flex min-h-[420px] items-end lg:h-[56vh]">
         <div className="absolute inset-0">
-          <ImageSlot label={`${dest.name} — awaiting real photography`} dark />
+          <SmartImage
+            image={destinationHero(dest.slug)}
+            label={`${dest.name} — awaiting real photography`}
+            sizes="100vw"
+            priority
+            dark
+          />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-scrim to-transparent" />
         <div className="relative mx-auto w-full max-w-[1200px] px-4 pb-12 pt-32 lg:px-12">
