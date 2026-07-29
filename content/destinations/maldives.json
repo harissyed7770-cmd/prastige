@@ -3,12 +3,53 @@
   "name": "Maldives",
   "country": "Maldives",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Overwater mornings, glowing shorelines — and a free visa on arrival",
+  "hero_description": "The Maldives is what the phrase 'island paradise' was coined for: a thousand-plus coral islands scattered in turquoise rings, where your villa stands on stilts over the lagoon and the house reef starts metres from your ladder. For Indian travellers it's surprisingly easy — a free 30-day visa on arrival and a short flight from the metros — and in the wet season, some shorelines literally glow at night.",
+  "best_time_to_visit": "November to April for the dry high season of calm seas and maximum sun; June to October brings lower rates and the best odds of bioluminescent 'Sea of Stars' shorelines on dark new-moon nights.",
+  "top_attractions": [
+    {
+      "name": "Overwater villas",
+      "description": "The signature Maldivian stay — stilted villas over the lagoon, many with glass floor panels and a private ladder straight into the water below.",
+      "image_needed": true
+    },
+    {
+      "name": "House-reef snorkelling",
+      "description": "On many islands the reef ledge sits metres from the sand — swim out to parrotfish, rays and turtles before breakfast, no boat required.",
+      "image_needed": true
+    },
+    {
+      "name": "The 'Sea of Stars'",
+      "description": "Bioluminescent plankton that flare blue when the water is disturbed — famously seen at Vaadhoo Island, most likely from June to October on new-moon nights (a matter of luck, never a guarantee).",
+      "image_needed": true
+    },
+    {
+      "name": "Sandbank picnics",
+      "description": "A dhoni drops you on a bare white sandbank in open turquoise — just the two of you, a picnic, and horizon in every direction.",
+      "image_needed": true
+    },
+    {
+      "name": "Manta and whale-shark waters",
+      "description": "Certain atolls host seasonal gatherings — Baa Atoll's Hanifaru Bay, inside a UNESCO biosphere reserve, is famous for mass manta feeding events.",
+      "image_needed": true
+    },
+    {
+      "name": "Malé old town",
+      "description": "One of the world's most densely packed small islands — its fish market bustle and the Old Friday Mosque, built from carved coral stone in 1658, make a worthwhile half-day between flights.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Waking up in an overwater villa with lagoon ladder access",
+    "Snorkelling the house reef straight off the beach",
+    "Sunset dolphin cruise aboard a traditional dhoni",
+    "Private sandbank picnic",
+    "Seaplane transfer with aerial atoll views",
+    "Night shoreline walk hunting bioluminescence (seasonal)",
+    "Diving day trips timed to manta and whale-shark seasons",
+    "Overwater spa treatment",
+    "Half-day in Malé — fish market and the coral-stone Old Friday Mosque"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
