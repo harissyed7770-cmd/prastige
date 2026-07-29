@@ -3,12 +3,52 @@
   "name": "France",
   "country": "France",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Paris boulevards to Riviera blue — the classic Europe trip, done properly",
+  "hero_description": "France pairs the world's most-visited museum city with its most glamorous coastline. Start with Paris — the Eiffel Tower, the Louvre's glass pyramid, Versailles' Hall of Mirrors — then take the fast train south to where the Alps meet the Mediterranean: Nice's seven-kilometre promenade, the perched village of Èze, and tiny Monaco next door.",
+  "best_time_to_visit": "April–May and September–October — mild weather, shorter museum queues and shoulder-season pricing; the Riviera stays pleasant nearly year-round, and March means the shortest lines at the Eiffel Tower and Louvre.",
+  "top_attractions": [
+    {
+      "name": "Eiffel Tower",
+      "description": "Built in 1889 for the Exposition Universelle and now around 330 m tall with its antennas — take the lifts to the summit at sunset for the city turning gold.",
+      "image_needed": true
+    },
+    {
+      "name": "The Louvre",
+      "description": "The world's most-visited museum, entered through I. M. Pei's 1989 glass pyramid — the Mona Lisa and Venus de Milo top most lists, but the medieval fortress foundations below surprise everyone.",
+      "image_needed": true
+    },
+    {
+      "name": "Palace of Versailles",
+      "description": "Louis XIV's UNESCO-listed palace 20 km from Paris — its Hall of Mirrors runs 73 m with 357 mirrors, and the gardens' musical fountain shows run in season.",
+      "image_needed": true
+    },
+    {
+      "name": "Seine river cruise",
+      "description": "The riverbanks themselves are UNESCO-listed — glide past Notre-Dame, restored and reopened in December 2024 after the 2019 fire.",
+      "image_needed": true
+    },
+    {
+      "name": "Nice & the Promenade des Anglais",
+      "description": "Seven kilometres of Mediterranean seafront backed by an old town whose flower market fills Cours Saleya — Nice's Riviera townscape earned its own UNESCO listing in 2021.",
+      "image_needed": true
+    },
+    {
+      "name": "Monaco & Èze",
+      "description": "The world's second-smallest country — the 1863 Casino de Monte-Carlo and walkable F1 corners — reached along a corniche that passes Èze, a medieval village perched 430 m above the sea.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Sunset ride to the Eiffel Tower summit",
+    "Pre-booked Louvre highlights morning",
+    "Versailles day trip with the Hall of Mirrors and gardens",
+    "Evening cruise on the Seine",
+    "Montmartre walk up to Sacré-Cœur and the artists' square",
+    "TGV journey from Paris to the Riviera",
+    "Cycle the Promenade des Anglais and browse the Cours Saleya market",
+    "Corniche day trip to Èze village and Monte-Carlo"
+  ],
+  "sample_itinerary_days": 8,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

@@ -6,12 +6,27 @@
   "duration": "7 Nights / 8 Days",
   "tier": "Premium",
   "audience": "All",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Eight days across France's two icons: four nights in Paris for the Eiffel Tower, Louvre, Montmartre and a Versailles day trip, then the fast train south for three nights on the Riviera — Nice's promenade, the perched village of Èze, and an afternoon in Monaco. City art up north, Mediterranean light down south.",
+  "highlights": [
+    "Eiffel Tower summit and an evening Seine cruise",
+    "Louvre and Versailles with pre-planned timed entries",
+    "TGV journey from Paris to the Riviera",
+    "Èze village and Monte-Carlo corniche day trip"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Bonjour Paris", "description": "Arrive, check-in, and an easy first walk — Champs-Élysées to the Arc de Triomphe as the lights come on." },
+    { "day": 2, "title": "Louvre & the Seine", "description": "Timed-entry morning at the Louvre, Île de la Cité and the restored Notre-Dame from the outside, evening cruise on the Seine." },
+    { "day": 3, "title": "Eiffel Tower & Montmartre", "description": "Summit lifts at the Eiffel Tower, afternoon climb through Montmartre to Sacré-Cœur and the artists' square." },
+    { "day": 4, "title": "Versailles", "description": "Day trip to Louis XIV's palace — Hall of Mirrors, royal apartments and the fountain gardens." },
+    { "day": 5, "title": "South to the Riviera", "description": "TGV through the French countryside to Nice; sunset stroll on the Promenade des Anglais." },
+    { "day": 6, "title": "Èze & Monaco", "description": "Corniche drive to the medieval perched village of Èze, then Monte-Carlo — casino square, harbour and the famous F1 corners." },
+    { "day": 7, "title": "Nice old town", "description": "Cours Saleya flower market, old-town lanes and a proper Mediterranean beach afternoon — or an optional Cannes/Antibes run." },
+    { "day": 8, "title": "Au revoir", "description": "Breakfast by the sea, transfer to Nice airport for departure." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Paris & French Riviera package (7 Nights / 8 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Schengen visa required for Indian passport holders (€90 adult as of research date — re-verify at booking). Inclusions/exclusions left empty for owner confirmation (flights, rail segment, entries).",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
