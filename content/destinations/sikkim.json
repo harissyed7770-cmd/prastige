@@ -3,12 +3,52 @@
   "name": "Sikkim",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Prayer flags at 4,000 metres, with the world's third-highest peak on the horizon",
+  "hero_description": "Sikkim compresses the Eastern Himalaya into one small state: from the easy-going capital Gangtok you climb in a single morning to the sacred, snow-ringed Tsomgo Lake and on to Nathula — one of the world's highest motorable passes, on the old Lhasa trade route. On clear autumn days, Kanchenjunga (8,586 m) owns the skyline.",
+  "best_time_to_visit": "March to May for rhododendron blooms, or October to December for the clearest Kanchenjunga views — monsoon months (June–September) bring landslide-prone mountain roads.",
+  "top_attractions": [
+    {
+      "name": "Tsomgo (Changu) Lake",
+      "description": "A sacred glacial lake at 3,753 m, about 40 km up the mountain road from Gangtok — oval, prayer-flag ringed, partly frozen through winter, with yaks saddled for rides along the shore.",
+      "image_needed": true
+    },
+    {
+      "name": "Nathula Pass",
+      "description": "At 4,310 m on the historic Lhasa trade route at the India–China border, one of the world's highest motorable passes — visited on a Protected Area Permit and closed to visitors on Mondays and Tuesdays.",
+      "image_needed": true
+    },
+    {
+      "name": "Rumtek Monastery",
+      "description": "Sikkim's largest monastery, about 23 km from Gangtok — seat-in-exile of the Karmapa lineage, where butter-lamp prayers start the day in the main hall.",
+      "image_needed": true
+    },
+    {
+      "name": "Kanchenjunga viewpoints",
+      "description": "The world's third-highest mountain (8,586 m) anchors Sikkim's horizon — Tashi Viewpoint near Gangtok catches it at sunrise, most reliably from October to December.",
+      "image_needed": true
+    },
+    {
+      "name": "MG Marg, Gangtok",
+      "description": "The capital's pedestrian-only promenade — traffic-free, litter-free by law, and lined with momo joints and cafes for the evening stroll.",
+      "image_needed": true
+    },
+    {
+      "name": "Gangtok Ropeway",
+      "description": "A cable-car ride above the capital's stacked ridgeline houses, with the Ranipool valley dropping away below.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Permit-day drive to Tsomgo Lake, Baba Mandir and Nathula Pass",
+    "Sunrise Kanchenjunga watch from Tashi Viewpoint",
+    "Morning prayers with butter lamps at Rumtek Monastery",
+    "River rafting the Teesta's grade II–III stretches",
+    "Cable-car ride on the Gangtok Ropeway",
+    "Momo and thukpa food trail along MG Marg",
+    "Spring rhododendron walks in the high valleys",
+    "Temi tea garden stop en route to Ravangla"
+  ],
+  "sample_itinerary_days": 6,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

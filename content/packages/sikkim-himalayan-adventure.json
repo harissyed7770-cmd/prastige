@@ -6,12 +6,25 @@
   "duration": "5 Nights / 6 Days",
   "tier": "Standard",
   "audience": "Adventure Seekers",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Six days that climb from Gangtok's cafe-lined promenade to 4,310 m at Nathula Pass — sacred Tsomgo Lake, butter-lamp mornings at Rumtek, Teesta river rafting and a sunrise date with Kanchenjunga. Real altitude, real permits, no technical skills needed.",
+  "highlights": [
+    "Permit-day ascent to Tsomgo Lake and Nathula Pass (4,310 m)",
+    "Sunrise view of Kanchenjunga from Tashi Viewpoint",
+    "Rafting the Teesta river",
+    "Rumtek Monastery and Gangtok's pedestrian MG Marg"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Into the hills", "description": "Arrive Bagdogra/New Jalpaiguri, scenic drive up the Teesta valley to Gangtok (1,650 m), evening stroll on MG Marg." },
+    { "day": 2, "title": "Gangtok & Rumtek", "description": "Morning prayers at Rumtek Monastery, Gangtok Ropeway ride, acclimatization day with a momo food trail." },
+    { "day": 3, "title": "Tsomgo & Nathula permit day", "description": "Full-day protected-area drive: sacred Tsomgo Lake (3,753 m), Baba Mandir, and Nathula Pass at the India–China border — weather and permit permitting (closed Mon–Tue)." },
+    { "day": 4, "title": "Teesta rafting & sunrise viewpoint", "description": "Pre-dawn run to Tashi Viewpoint for Kanchenjunga at first light, then rafting the Teesta's grade II–III rapids." },
+    { "day": 5, "title": "Ravangla & Temi tea garden", "description": "Day trip through South Sikkim — Temi, the state's only tea estate, and the giant Buddha at Ravangla." },
+    { "day": 6, "title": "Departure", "description": "Downhill drive to Bagdogra/NJP for onward travel." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Sikkim Himalayan Adventure (5 Nights / 6 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Nathula requires a Protected Area Permit (arranged via registered operators), is closed Mon–Tue, and is not open to foreign nationals — re-verify rules at booking time. Inclusions/exclusions left for owner confirmation.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
