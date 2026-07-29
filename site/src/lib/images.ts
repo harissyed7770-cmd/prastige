@@ -79,6 +79,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  rajasthan: {
+    hero: {
+      src: "/images/rajasthan/hero.jpg",
+      alt: "A domed rooftop pavilion of Jaipur's City Palace with the royal standard flying, cream and pink against a monsoon sky",
+    },
+    attractions: {
+      "Amber Fort, Jaipur": {
+        src: "/images/rajasthan/amber-fort.jpg",
+        alt: "The Sheesh Mahal pavilion at Amber Fort behind its star-shaped charbagh garden, marble arches glowing in evening light",
+      },
+      "Hawa Mahal, Jaipur": {
+        src: "/images/rajasthan/hawa-mahal.jpg",
+        alt: "The full pink five-storey honeycomb facade of Hawa Mahal with its 953 jharokha windows, street life passing below",
+      },
+      "Mehrangarh Fort, Jodhpur": {
+        src: "/images/rajasthan/mehrangarh-fort.jpg",
+        alt: "Cannons on Mehrangarh Fort's ramparts looking straight down over the indigo-washed houses of Jodhpur's Blue City",
+      },
+      "City Palace, Udaipur": {
+        src: "/images/rajasthan/city-palace-udaipur.jpg",
+        alt: "Looking up at the carved jharokha balconies and corner turrets of Udaipur's City Palace in golden stone",
+      },
+      "Jaisalmer Fort": {
+        src: "/images/rajasthan/jaisalmer-fort.jpg",
+        alt: "The round golden-sandstone bastions of Jaisalmer Fort rising from their sloped stone base against a blue desert sky",
+      },
+      "Jaipur's walled old city": {
+        src: "/images/rajasthan/jaipur-old-city.jpg",
+        alt: "Pink-washed heritage facades with domed chhatris above a row of jewellers' shopfronts in Jaipur's walled old city at dusk",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
