@@ -3,12 +3,52 @@
   "name": "Azerbaijan",
   "country": "Azerbaijan",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Medieval walls, flame-lit towers, and a hillside that never stops burning",
+  "hero_description": "Baku stacks a UNESCO-listed medieval Old City against a skyline of flame-shaped towers that ripple with fire animations after dark — and that's before the day trips get strange, in the best way: 40,000-year-old rock carvings at Gobustan, bubbling mud volcanoes, and Yanar Dag, a natural-gas hillside that has burned for decades. A three-day e-visa and short flights make it one of the easiest 'Europe-feel' breaks from India.",
+  "best_time_to_visit": "April to June and September to October — comfortable 15–25°C for boulevard walks and day trips; high summer pushes past 30°C and winter earns Baku its 'city of winds' name.",
+  "top_attractions": [
+    {
+      "name": "Icherisheher — Baku's Old City",
+      "description": "The UNESCO-listed walled core of Baku, holding the enigmatic 12th-century Maiden Tower and the 15th-century Palace of the Shirvanshahs within its lanes.",
+      "image_needed": true
+    },
+    {
+      "name": "Flame Towers",
+      "description": "Three flame-shaped towers rising to 182 m above the bay — after dark their LED facades turn into rippling fire, best watched from the Highland Park funicular viewpoint.",
+      "image_needed": true
+    },
+    {
+      "name": "Gobustan National Park",
+      "description": "A UNESCO site about 65 km from Baku with roughly 6,000 petroglyphs — hunting scenes and reed boats carved up to 40,000 years ago.",
+      "image_needed": true
+    },
+    {
+      "name": "The mud volcanoes",
+      "description": "Azerbaijan holds nearly half the world's mud volcanoes — fields of cold grey cones near Gobustan that gurgle and spit like a lunar landscape with a pulse.",
+      "image_needed": true
+    },
+    {
+      "name": "Yanar Dag",
+      "description": "The 'Burning Mountain' of the Absheron Peninsula — a natural-gas seep that has kept a wall of flame alight continuously for decades, rain or snow.",
+      "image_needed": true
+    },
+    {
+      "name": "Ateshgah Fire Temple",
+      "description": "A 17th–18th-century fire temple at Surakhani carrying inscriptions from Indian merchant devotees — a genuine historical thread between Baku and India.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Old City walk through the Maiden Tower and Shirvanshahs' Palace",
+    "Funicular ride to Highland Park for the Flame Towers panorama",
+    "Combined Gobustan petroglyphs and mud-volcano jeep day",
+    "Absheron half-day: Yanar Dag and the Ateshgah Fire Temple",
+    "Evening on the Caspian boulevard with the Baku Eye",
+    "Architecture stop at Zaha Hadid's Heydar Aliyev Center",
+    "Azerbaijani food crawl — plov, dolma, qutab and pomegranate everything",
+    "Seasonal mountain day trip to Gabala or Shahdag"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
