@@ -111,6 +111,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  delhi: {
+    hero: {
+      src: "/images/delhi/hero.jpg",
+      alt: "India Gate at dusk under a pink sky, evening crowds and ice-cream carts on the avenue, the empty canopy visible through the arch",
+    },
+    attractions: {
+      "Red Fort": {
+        src: "/images/delhi/red-fort.jpg",
+        alt: "The Lahori Gate of the Red Fort with the Indian tricolour flying above its red-sandstone bastions and chhatris",
+      },
+      "Qutub Minar": {
+        src: "/images/delhi/qutub-minar.jpg",
+        alt: "The fluted sandstone shaft of Qutub Minar rising behind the ruined arches of the Quwwat-ul-Islam mosque complex",
+      },
+      "Humayun's Tomb": {
+        src: "/images/delhi/humayuns-tomb.jpg",
+        alt: "The red-and-white front facade of Humayun's Tomb under its white marble dome, seen down the charbagh garden's axis",
+      },
+      "Jama Masjid": {
+        src: "/images/delhi/jama-masjid.jpg",
+        alt: "Jama Masjid's marble-domed prayer hall framed in silhouette through the great eastern gateway arch, worshippers in the courtyard",
+      },
+      "Chandni Chowk": {
+        src: "/images/delhi/chandni-chowk.jpg",
+        alt: "A green-and-yellow auto-rickshaw amid the crowds, saree-shop hoardings and tangled signboards of Chandni Chowk",
+      },
+      "India Gate": {
+        src: "/images/delhi/india-gate.jpg",
+        alt: "The full 42-metre arch of India Gate from the western lawns, a cyclist walking across the grass in the foreground",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
