@@ -6,12 +6,26 @@
   "duration": "5 Nights / 6 Days",
   "tier": "Luxury",
   "audience": "Couples",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Six days across Kerala's three signatures — tea-cool Munnar, boat-safari Thekkady and the Alleppey backwaters — ending with a private overnight houseboat and an Ayurvedic couples session. Built for couples who want the romance without the rush: two nights in the hills, unhurried drives, and dinners that come to you.",
+  "highlights": [
+    "Private overnight kettuvallam houseboat on the Alleppey backwaters",
+    "Two nights amid Munnar's tea plantations",
+    "Periyar Lake boat safari and a spice garden walk",
+    "Kathakali evening and Fort Kochi heritage stroll",
+    "Ayurvedic couples wellness session"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Arrive Kochi", "description": "Airport pickup, Fort Kochi walk past the Chinese fishing nets and St. Francis Church, evening Kathakali performance with the pre-show make-up ritual." },
+    { "day": 2, "title": "Climb to Munnar", "description": "Scenic drive into the Western Ghats with waterfall stops, first walk through the tea contours at golden hour." },
+    { "day": 3, "title": "Munnar tea country", "description": "Eravikulam National Park (home of the Nilgiri tahr), tea museum tasting, and a plantation-view dinner." },
+    { "day": 4, "title": "Thekkady & Periyar", "description": "Drive through cardamom country, afternoon boat safari on Periyar Lake, spice garden tour before dusk." },
+    { "day": 5, "title": "Houseboat on the backwaters", "description": "Board a private houseboat at Alleppey by noon — cruise the canals, freshly cooked Kerala meals onboard, sunset on deck, overnight at anchor." },
+    { "day": 6, "title": "Disembark & depart", "description": "Backwater sunrise, disembark after breakfast, transfer to Kochi for departure." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Kerala Backwaters Tour (5 Nights / 6 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Inclusions/exclusions intentionally left empty — confirm coverage (houseboat category, meals, transfers) rather than us inventing it.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

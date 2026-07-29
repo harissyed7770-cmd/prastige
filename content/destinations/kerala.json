@@ -3,12 +3,52 @@
   "name": "Kerala",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Tea hills, tiger country, and a night asleep on the backwaters",
+  "hero_description": "Kerala strings together landscapes that shouldn't fit in one state: mist-cool tea plantations at Munnar, boat-safari wildlife on Periyar Lake, and the canal-veined backwaters of Alleppey — where you sleep aboard a converted rice barge as village life drifts past. Add 500 years of trading history at Fort Kochi and Ayurveda done properly, and it earns the hype.",
+  "best_time_to_visit": "October to March — 18–30°C with post-monsoon greenery and reliable weather for backwater cruising; monsoon (June–September) is the traditional season for Ayurvedic treatment, when therapies are considered most effective.",
+  "top_attractions": [
+    {
+      "name": "Alleppey Backwaters",
+      "description": "A maze of canals, lagoons and paddy-field villages around Vembanad Lake, cruised overnight aboard kettuvallams — traditional rice barges converted into houseboats with bedrooms, a deck and an onboard cook.",
+      "image_needed": true
+    },
+    {
+      "name": "Munnar",
+      "description": "A tea town sitting at roughly 1,450–1,600 m in the Western Ghats, wrapped in plantation contours; neighbouring Eravikulam National Park protects the endangered Nilgiri tahr, under Anamudi — at 2,695 m the highest peak in peninsular India.",
+      "image_needed": true
+    },
+    {
+      "name": "Periyar Tiger Reserve, Thekkady",
+      "description": "One of India's few reserves where the safari happens by boat — cruises on Periyar Lake pass elephants and gaur at the waterline, with cardamom and pepper plantations at the park's edge.",
+      "image_needed": true
+    },
+    {
+      "name": "Fort Kochi",
+      "description": "A 16th-century European trading enclave where shore-operated Chinese fishing nets line the harbour and St. Francis Church (1503) — India's oldest European church — once held Vasco da Gama's remains.",
+      "image_needed": true
+    },
+    {
+      "name": "Kathakali performance",
+      "description": "Kerala's classical dance-drama, staged nightly at Kochi's cultural centres — arrive an hour early to watch performers apply the elaborate green make-up that defines the art form.",
+      "image_needed": true
+    },
+    {
+      "name": "Athirappilly Falls",
+      "description": "A broad curtain of water about 24 m high on the Chalakudy River — widely called Kerala's largest waterfall and at full roar in and just after the monsoon.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Overnight houseboat cruise on the Alleppey backwaters with onboard Kerala meals",
+    "Tea-estate walk and tea museum visit in Munnar",
+    "Boat safari on Periyar Lake at Thekkady",
+    "Spice garden tour in cardamom country",
+    "Ayurvedic massage or multi-day wellness programme",
+    "Sunset at the Chinese fishing nets in Fort Kochi",
+    "Village shikara canoe ride through Alleppey's narrow canals",
+    "A sadya feast served on a banana leaf"
+  ],
+  "sample_itinerary_days": 6,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
