@@ -47,6 +47,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  kerala: {
+    hero: {
+      src: "/images/kerala/hero.jpg",
+      alt: "A two-deck kettuvallam houseboat moored along a palm-lined bank of the Kerala backwaters under a clear sky",
+    },
+    attractions: {
+      "Alleppey Backwaters": {
+        src: "/images/kerala/alleppey-backwaters.jpg",
+        alt: "A thatched houseboat on the Alleppey backwaters at sunset, coconut palms silhouetted behind and sunlight glinting off the water",
+      },
+      "Munnar": {
+        src: "/images/kerala/munnar.jpg",
+        alt: "Rolling contours of the Lockhart tea plantation at Munnar, bright green tea bushes rising toward forested Western Ghats ridges",
+      },
+      "Periyar Tiger Reserve, Thekkady": {
+        src: "/images/kerala/periyar-thekkady.jpg",
+        alt: "Safari boats cruising Periyar Lake past the bleached trunks of drowned trees, forested hills behind",
+      },
+      "Fort Kochi": {
+        src: "/images/kerala/fort-kochi.jpg",
+        alt: "A shore-operated Chinese fishing net silhouetted over the water at Fort Kochi as the sun sets behind clouds",
+      },
+      "Kathakali performance": {
+        src: "/images/kerala/kathakali.jpg",
+        alt: "Close-up of a Kathakali performer in a female role — painted face, bold black eye make-up, silver headdress and heavy jewellery",
+      },
+      "Athirappilly Falls": {
+        src: "/images/kerala/athirappilly-falls.jpg",
+        alt: "The wide white curtain of Athirappilly Falls dropping off a forested plateau in full monsoon flow",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
