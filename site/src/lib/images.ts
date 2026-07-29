@@ -399,6 +399,34 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  maldives: {
+    hero: {
+      src: "/images/maldives/hero.jpg",
+      alt: "Thatched-roof overwater bungalows on stilts over a clear turquoise Maldivian lagoon under a blue sky",
+    },
+    attractions: {
+      "Overwater villas": {
+        src: "/images/maldives/overwater-villas.jpg",
+        alt: "Aerial view of overwater villas fanning out from the tip of a reef island, turquoise shallows giving way to deep blue ocean",
+      },
+      "House-reef snorkelling": {
+        src: "/images/maldives/house-reef-snorkelling.jpg",
+        alt: "Two snorkellers swimming over a shallow reef in clear Maldivian water",
+      },
+      "Sandbank picnics": {
+        src: "/images/maldives/sandbank.jpg",
+        alt: "A person walking along a bare white Maldivian sandbank, overwater villas and palm trees visible behind",
+      },
+      "Manta and whale-shark waters": {
+        src: "/images/maldives/manta-ray.jpg",
+        alt: "A large reef manta ray gliding beneath the surface as a snorkeller swims nearby in Maldivian waters",
+      },
+      "Malé old town": {
+        src: "/images/maldives/male-city.jpg",
+        alt: "Aerial view of Malé's densely packed colourful buildings and busy harbour, with the Maldives' turquoise reef beyond",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
