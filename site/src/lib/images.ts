@@ -335,6 +335,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  azerbaijan: {
+    hero: {
+      src: "/images/azerbaijan/hero.jpg",
+      alt: "Aerial sunset view of Baku's skyline — the Flame Towers, TV tower and waterfront Crystal Hall on the Caspian shore",
+    },
+    attractions: {
+      "Icherisheher — Baku's Old City": {
+        src: "/images/azerbaijan/old-city-baku.jpg",
+        alt: "The stout stone cylinder of the Maiden Tower rising above Icherisheher's old city walls under a blue sky",
+      },
+      "Flame Towers": {
+        src: "/images/azerbaijan/flame-towers.jpg",
+        alt: "The three Flame Towers lit red at night, their glow reflected in the water along Baku Boulevard",
+      },
+      "Gobustan National Park": {
+        src: "/images/azerbaijan/gobustan-petroglyphs.jpg",
+        alt: "A carved animal figure petroglyph on weathered rock at Gobustan, surrounded by scrubby vegetation",
+      },
+      "The mud volcanoes": {
+        src: "/images/azerbaijan/mud-volcanoes.jpg",
+        alt: "Grey mud cones near Gobustan with wet mud trickling down their slopes in channels",
+      },
+      "Yanar Dag": {
+        src: "/images/azerbaijan/yanar-dag.jpg",
+        alt: "Flames burning continuously along the base of the Yanar Dag hillside, its name spelled out in white stones above",
+      },
+      "Ateshgah Fire Temple": {
+        src: "/images/azerbaijan/ateshgah.jpg",
+        alt: "The central fire pit of Ateshgah Fire Temple, framed by a stone archway with visitors gathered around",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
