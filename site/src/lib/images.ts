@@ -175,6 +175,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  kashmir: {
+    hero: {
+      src: "/images/kashmir/hero.jpg",
+      alt: "Tourists riding a canopied shikara past ornate wooden houseboats on Dal Lake at dusk, snow-dusted mountains behind",
+    },
+    attractions: {
+      "Dal Lake": {
+        src: "/images/kashmir/dal-lake.jpg",
+        alt: "A flower-seller poling his boat laden with fresh blooms through Dal Lake's lotus pads at sunset",
+      },
+      "Gulmarg Gondola": {
+        src: "/images/kashmir/gulmarg-gondola.jpg",
+        alt: "Gulmarg Gondola cabins climbing a cable line through snow-laden pine trees toward the mountain station",
+      },
+      "Mughal Gardens of Srinagar": {
+        src: "/images/kashmir/mughal-gardens.jpg",
+        alt: "Nishat Bagh's terraced water channel and flower beds stepping down toward the camera, the Zabarwan mountains rising behind",
+      },
+      "Pahalgam": {
+        src: "/images/kashmir/pahalgam.jpg",
+        alt: "The Lidder river running through a green pine-forested valley at Pahalgam, snow peaks filling the horizon",
+      },
+      "Sonamarg": {
+        src: "/images/kashmir/sonamarg.jpg",
+        alt: "A glacial stream cutting through Sonamarg's boulder-strewn meadow, snow-capped peaks rising beyond the pines",
+      },
+      "Saffron fields of Pampore": {
+        src: "/images/kashmir/saffron-pampore.jpg",
+        alt: "Purple saffron crocus flowers with orange stigmas in close-up, blooming across a ploughed Pampore field",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
