@@ -1,0 +1,10 @@
+{
+  "page": "robots-txt",
+  "path": "/robots.txt",
+  "url": "https://prestigeholidays4u.com/robots.txt",
+  "fetchedAt": "2026-07-29T08:43:30.617Z",
+  "status": 200,
+  "finalUrl": "https://prestigeholidays4u.com/robots.txt",
+  "notes": [],
+  "raw": "User-agent: *\nAllow: /\n\nSitemap: https://prestigeholidays4u.com/sitemap.xml\n"
+}

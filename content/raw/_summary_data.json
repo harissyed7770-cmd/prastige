@@ -1,0 +1,167 @@
+[
+  {
+    "page": "home",
+    "path": "/",
+    "status": 200,
+    "textLen": 3829,
+    "notes": []
+  },
+  {
+    "page": "about",
+    "path": "/about",
+    "status": 200,
+    "textLen": 2983,
+    "notes": []
+  },
+  {
+    "page": "contact",
+    "path": "/contact",
+    "status": 200,
+    "textLen": 1253,
+    "notes": []
+  },
+  {
+    "page": "domestic",
+    "path": "/domestic",
+    "status": 200,
+    "textLen": 1871,
+    "notes": []
+  },
+  {
+    "page": "international",
+    "path": "/international",
+    "status": 200,
+    "textLen": 2023,
+    "notes": []
+  },
+  {
+    "page": "packages",
+    "path": "/packages",
+    "status": 200,
+    "textLen": 3340,
+    "notes": []
+  },
+  {
+    "page": "customize-trip",
+    "path": "/customize-trip",
+    "status": 200,
+    "textLen": 965,
+    "notes": []
+  },
+  {
+    "page": "destination-goa",
+    "path": "/destinations/goa",
+    "status": 200,
+    "textLen": 1651,
+    "notes": []
+  },
+  {
+    "page": "destination-kerala",
+    "path": "/destinations/kerala",
+    "status": 200,
+    "textLen": 1707,
+    "notes": []
+  },
+  {
+    "page": "destination-rajasthan",
+    "path": "/destinations/rajasthan",
+    "status": 200,
+    "textLen": 1665,
+    "notes": []
+  },
+  {
+    "page": "destination-delhi",
+    "path": "/destinations/delhi",
+    "status": 200,
+    "textLen": 1604,
+    "notes": []
+  },
+  {
+    "page": "destination-sikkim",
+    "path": "/destinations/sikkim",
+    "status": 200,
+    "textLen": 1679,
+    "notes": []
+  },
+  {
+    "page": "destination-kashmir",
+    "path": "/destinations/kashmir",
+    "status": 200,
+    "textLen": 1744,
+    "notes": []
+  },
+  {
+    "page": "destination-france",
+    "path": "/destinations/france",
+    "status": 200,
+    "textLen": 1616,
+    "notes": []
+  },
+  {
+    "page": "destination-switzerland",
+    "path": "/destinations/switzerland",
+    "status": 200,
+    "textLen": 1685,
+    "notes": []
+  },
+  {
+    "page": "destination-uae",
+    "path": "/destinations/uae",
+    "status": 200,
+    "textLen": 1635,
+    "notes": []
+  },
+  {
+    "page": "destination-thailand",
+    "path": "/destinations/thailand",
+    "status": 200,
+    "textLen": 1632,
+    "notes": []
+  },
+  {
+    "page": "destination-azerbaijan",
+    "path": "/destinations/azerbaijan",
+    "status": 200,
+    "textLen": 1715,
+    "notes": []
+  },
+  {
+    "page": "destination-singapore",
+    "path": "/destinations/singapore",
+    "status": 200,
+    "textLen": 1671,
+    "notes": []
+  },
+  {
+    "page": "destination-maldives",
+    "path": "/destinations/maldives",
+    "status": 404,
+    "textLen": 797,
+    "notes": [
+      "BROKEN: 404"
+    ]
+  },
+  {
+    "page": "destination-dubai",
+    "path": "/destinations/dubai",
+    "status": 404,
+    "textLen": 797,
+    "notes": [
+      "BROKEN: 404"
+    ]
+  },
+  {
+    "page": "sitemap-xml",
+    "path": "/sitemap.xml",
+    "status": 200,
+    "textLen": 3503,
+    "notes": []
+  },
+  {
+    "page": "robots-txt",
+    "path": "/robots.txt",
+    "status": 200,
+    "textLen": 76,
+    "notes": []
+  }
+]

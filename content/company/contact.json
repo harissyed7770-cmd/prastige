@@ -1,0 +1,27 @@
+{
+  "business_name": "Prestige Holidays 4U",
+  "phone": "+91 63618 77187",
+  "phone_href": "tel:+916361877187",
+  "email": "showkath@prestigeholidays4u.com",
+  "whatsapp_number": "916361877187",
+  "whatsapp_enquiry_template": "Hello, I would like to enquire about a tour package.\n\nDestination:\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "address": {
+    "line1": "No 638/G, HBR 1st Stage, 2nd Block",
+    "line2": "HBR Layout",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560043",
+    "country": "India"
+  },
+  "office_hours": [
+    {
+      "days": "Monday - Saturday",
+      "hours": "9:00 AM - 7:00 PM"
+    },
+    {
+      "days": "Sunday",
+      "hours": "10:00 AM - 5:00 PM"
+    }
+  ],
+  "source": "carried_forward_fact"
+}

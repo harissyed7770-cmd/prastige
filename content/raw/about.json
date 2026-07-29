@@ -1,0 +1,256 @@
+{
+  "page": "about",
+  "path": "/about",
+  "url": "https://prestigeholidays4u.com/about",
+  "fetchedAt": "2026-07-29T08:43:20.347Z",
+  "status": 200,
+  "finalUrl": "https://prestigeholidays4u.com/about",
+  "notes": [],
+  "title": "About Us - Prestige Holidays 4U | Your Trusted Travel Partner",
+  "metaDesc": "Learn about Prestige Holidays 4U, your trusted partner for domestic and international travel experiences.",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "About Prestige Holidays 4U"
+    },
+    {
+      "tag": "h2",
+      "text": "Who We Are"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Core Values"
+    },
+    {
+      "tag": "h3",
+      "text": "Trust & Reliability"
+    },
+    {
+      "tag": "h3",
+      "text": "Excellence"
+    },
+    {
+      "tag": "h3",
+      "text": "Customer First"
+    },
+    {
+      "tag": "h3",
+      "text": "Global Network"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Mission"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Vision"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Services"
+    },
+    {
+      "tag": "h3",
+      "text": "1000+"
+    },
+    {
+      "tag": "h3",
+      "text": "50+"
+    },
+    {
+      "tag": "h3",
+      "text": "5+ Years"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to Start Your Journey?"
+    },
+    {
+      "tag": "h3",
+      "text": "Prestige Holidays 4U"
+    },
+    {
+      "tag": "h4",
+      "text": "Quick Links"
+    },
+    {
+      "tag": "h4",
+      "text": "Popular Destinations"
+    },
+    {
+      "tag": "h4",
+      "text": "Contact Info"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "Prestige Holidays 4U Where Great Journey Begins"
+    },
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/domestic",
+      "text": "Domestic"
+    },
+    {
+      "href": "/international",
+      "text": "International"
+    },
+    {
+      "href": "/packages",
+      "text": "Packages"
+    },
+    {
+      "href": "/customize-trip",
+      "text": "Customize Trip"
+    },
+    {
+      "href": "/about",
+      "text": "About"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "tel:+916361877187",
+      "text": "+91 63618 77187"
+    },
+    {
+      "href": "/customize-trip",
+      "text": "Plan Your Trip"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/domestic",
+      "text": "Domestic Tours"
+    },
+    {
+      "href": "/international",
+      "text": "International Tours"
+    },
+    {
+      "href": "/packages",
+      "text": "Tour Packages"
+    },
+    {
+      "href": "/about",
+      "text": "About Us"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/destinations/goa",
+      "text": "Goa"
+    },
+    {
+      "href": "/destinations/kerala",
+      "text": "Kerala"
+    },
+    {
+      "href": "/destinations/maldives",
+      "text": "Maldives"
+    },
+    {
+      "href": "/destinations/dubai",
+      "text": "Dubai"
+    },
+    {
+      "href": "/destinations/switzerland",
+      "text": "Switzerland"
+    },
+    {
+      "href": "/destinations/thailand",
+      "text": "Thailand"
+    },
+    {
+      "href": "tel:+916361877187",
+      "text": "+91 63618 77187"
+    },
+    {
+      "href": "mailto:showkath@prestigeholidays4u.com",
+      "text": "showkath@prestigeholidays4u.com"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A",
+      "text": "Chat with us on WhatsApp"
+    }
+  ],
+  "imageAlts": [
+    {
+      "alt": "Prestige Holidays 4U - Premium Tour Packages from Bangalore",
+      "src": "/logo.png"
+    },
+    {
+      "alt": "Prestige Holidays 4U - creating memorable travel experiences from Bangalore",
+      "src": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&amp;q=80"
+    },
+    {
+      "alt": "Prestige Holidays 4U logo",
+      "src": "/logo.png"
+    }
+  ],
+  "ctas": [
+    {
+      "type": "button",
+      "text": "+91 63618 77187"
+    },
+    {
+      "type": "button",
+      "text": "Plan Your Trip"
+    },
+    {
+      "type": "button",
+      "text": "Contact Us"
+    },
+    {
+      "type": "link",
+      "text": "+91 63618 77187",
+      "href": "tel:+916361877187"
+    },
+    {
+      "type": "link",
+      "text": "+91 63618 77187",
+      "href": "tel:+916361877187"
+    },
+    {
+      "type": "link",
+      "text": "showkath@prestigeholidays4u.com",
+      "href": "mailto:showkath@prestigeholidays4u.com"
+    },
+    {
+      "type": "link",
+      "text": "Chat with us on WhatsApp",
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A"
+    }
+  ],
+  "text": "About Us - Prestige Holidays 4U | Your Trusted Travel Partner Prestige Holidays 4U Where Great Journey Begins Home Domestic International Packages Customize Trip About Contact +91 63618 77187 About Prestige Holidays 4U Your Trusted Partner for Unforgettable Travel Experiences Who We Are Welcome to Prestige Holidays 4U, where your travel dreams become reality. Based in Bengaluru, we are passionate about creating memorable journeys that combine comfort, adventure, and authentic experiences. With years of expertise in the travel industry, we specialize in crafting personalized domestic and international tour packages that cater to diverse preferences and budgets. From romantic honeymoons to family vacations, from adventure trips to spiritual journeys, we handle every detail with care. Our commitment is simple: to provide you with exceptional service, competitive pricing, and unforgettable experiences that create lasting memories. We believe that travel is not just about destinations; it&#x27;s about the journey, the connections you make, and the stories you bring home. Our Core Values The principles that guide everything we do Trust & Reliability We prioritize your safety and satisfaction with verified partners and transparent pricing Excellence Committed to delivering exceptional travel experiences that exceed expectations Customer First Your happiness is our success. We go the extra mile to ensure memorable journeys Global Network Extensive partnerships worldwide enable us to offer diverse, quality experiences Our Mission To make travel accessible, enjoyable, and enriching for everyone. We strive to create personalized experiences that inspire wanderlust, foster cultural understanding, and create lifelong memories. Our Vision To become the most trusted and preferred travel partner, known for exceptional service, innovative packages, and commitment to customer satisfaction. We envision a world where everyone can explore, discover, and connect through meaningful travel experiences. Our Services Customized Tour Packages Hotel & Resort Bookings Flight & Transportation Visa Assistance Travel Insurance Foreign Currency Exchange International Travel Cards Guided Tours 24/7 Travel Support Group & Corporate Tours Honeymoon Packages Adventure Activities 1000+ Happy Travelers 50+ Destinations Covered 5+ Years Industry Experience Ready to Start Your Journey? Let us help you plan your next adventure Plan Your Trip Contact Us Prestige Holidays 4U Where Great Journey Begins Your trusted partner for domestic and international travel experiences. Creating memorable journeys since years. Quick Links Home Domestic Tours International Tours Tour Packages About Us Contact Us Popular Destinations Goa Kerala Maldives Dubai Switzerland Thailand Contact Info No 638/G, HBR 1st Stage, 2nd Block, HBR Layout, Karnataka, Bengaluru – 560043 +91 63618 77187 showkath@prestigeholidays4u.com © 2026 Prestige Holidays 4U. All rights reserved. Chat with us on WhatsApp"
+}

@@ -1,0 +1,577 @@
+{
+  "page": "home",
+  "path": "/",
+  "url": "https://prestigeholidays4u.com/",
+  "fetchedAt": "2026-07-29T08:43:19.786Z",
+  "status": 200,
+  "finalUrl": "https://prestigeholidays4u.com/",
+  "notes": [],
+  "title": "Premium Domestic &amp; International Tour Packages | Prestige Holidays 4U",
+  "metaDesc": "Book affordable domestic and international tour packages from Bangalore. Customized holidays, best price guarantee, and 24/7 travel support with Prestige Holidays 4U.",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Where Great Journey Begins"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Incredible India"
+    },
+    {
+      "tag": "h3",
+      "text": "Goa"
+    },
+    {
+      "tag": "h3",
+      "text": "Kerala"
+    },
+    {
+      "tag": "h3",
+      "text": "Rajasthan"
+    },
+    {
+      "tag": "h3",
+      "text": "Delhi"
+    },
+    {
+      "tag": "h3",
+      "text": "Sikkim"
+    },
+    {
+      "tag": "h3",
+      "text": "Kashmir"
+    },
+    {
+      "tag": "h2",
+      "text": "Discover the World"
+    },
+    {
+      "tag": "h3",
+      "text": "France"
+    },
+    {
+      "tag": "h3",
+      "text": "Switzerland"
+    },
+    {
+      "tag": "h3",
+      "text": "United Arab Emirates"
+    },
+    {
+      "tag": "h3",
+      "text": "Thailand"
+    },
+    {
+      "tag": "h3",
+      "text": "Azerbaijan"
+    },
+    {
+      "tag": "h3",
+      "text": "Singapore"
+    },
+    {
+      "tag": "h2",
+      "text": "Why Choose Prestige Holidays 4U?"
+    },
+    {
+      "tag": "h3",
+      "text": "Trusted & Secure"
+    },
+    {
+      "tag": "h3",
+      "text": "Best Price Guarantee"
+    },
+    {
+      "tag": "h3",
+      "text": "Easy Booking"
+    },
+    {
+      "tag": "h3",
+      "text": "24/7 Support"
+    },
+    {
+      "tag": "h3",
+      "text": "Expert Guidance"
+    },
+    {
+      "tag": "h3",
+      "text": "Wide Network"
+    },
+    {
+      "tag": "h2",
+      "text": "Popular Destinations"
+    },
+    {
+      "tag": "h3",
+      "text": "Goa"
+    },
+    {
+      "tag": "h3",
+      "text": "Kerala"
+    },
+    {
+      "tag": "h3",
+      "text": "Rajasthan"
+    },
+    {
+      "tag": "h3",
+      "text": "Delhi"
+    },
+    {
+      "tag": "h3",
+      "text": "Sikkim"
+    },
+    {
+      "tag": "h3",
+      "text": "Kashmir"
+    },
+    {
+      "tag": "h3",
+      "text": "France"
+    },
+    {
+      "tag": "h3",
+      "text": "Switzerland"
+    },
+    {
+      "tag": "h3",
+      "text": "United Arab Emirates"
+    },
+    {
+      "tag": "h3",
+      "text": "Thailand"
+    },
+    {
+      "tag": "h3",
+      "text": "Azerbaijan"
+    },
+    {
+      "tag": "h3",
+      "text": "Singapore"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to Start Your Journey?"
+    },
+    {
+      "tag": "h3",
+      "text": "Prestige Holidays 4U"
+    },
+    {
+      "tag": "h4",
+      "text": "Quick Links"
+    },
+    {
+      "tag": "h4",
+      "text": "Popular Destinations"
+    },
+    {
+      "tag": "h4",
+      "text": "Contact Info"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "Prestige Holidays 4U Where Great Journey Begins"
+    },
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/domestic",
+      "text": "Domestic"
+    },
+    {
+      "href": "/international",
+      "text": "International"
+    },
+    {
+      "href": "/packages",
+      "text": "Packages"
+    },
+    {
+      "href": "/customize-trip",
+      "text": "Customize Trip"
+    },
+    {
+      "href": "/about",
+      "text": "About"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "tel:+916361877187",
+      "text": "+91 63618 77187"
+    },
+    {
+      "href": "/destinations/goa",
+      "text": "Goa India Sun-kissed beaches, vibrant nightlife, and Portuguese heritage View Details"
+    },
+    {
+      "href": "/destinations/kerala",
+      "text": "Kerala India Serene backwaters, lush tea gardens, and Ayurvedic wellness View Details"
+    },
+    {
+      "href": "/destinations/rajasthan",
+      "text": "Rajasthan India Royal palaces, desert landscapes, and vibrant culture View Details"
+    },
+    {
+      "href": "/destinations/delhi",
+      "text": "Delhi India Historic monuments, bustling markets, and diverse cuisine View Details"
+    },
+    {
+      "href": "/destinations/sikkim",
+      "text": "Sikkim India Himalayan paradise with Buddhist monasteries and mountain views View Details"
+    },
+    {
+      "href": "/destinations/kashmir",
+      "text": "Kashmir India Heaven on Earth with Dal Lake, houseboats, and snow-capped peaks View Details"
+    },
+    {
+      "href": "/domestic",
+      "text": "View All Domestic Destinations"
+    },
+    {
+      "href": "/destinations/france",
+      "text": "France France Romantic Paris, French Riviera, and world-class cuisine View Details"
+    },
+    {
+      "href": "/destinations/switzerland",
+      "text": "Switzerland Switzerland Alpine beauty, pristine lakes, and chocolate paradise View Details"
+    },
+    {
+      "href": "/destinations/uae",
+      "text": "United Arab Emirates UAE Modern marvels, luxury shopping, and desert adventures View Details"
+    },
+    {
+      "href": "/destinations/thailand",
+      "text": "Thailand Thailand Tropical beaches, ancient temples, and vibrant street life View Details"
+    },
+    {
+      "href": "/destinations/azerbaijan",
+      "text": "Azerbaijan Azerbaijan Land of Fire with modern architecture and ancient history View Details"
+    },
+    {
+      "href": "/destinations/singapore",
+      "text": "Singapore Singapore Futuristic city-state with Gardens by the Bay and diverse culture View Details"
+    },
+    {
+      "href": "/international",
+      "text": "View All International Destinations"
+    },
+    {
+      "href": "/destinations/goa",
+      "text": "Goa Sun-kissed beaches, vibrant nightlife, and Portuguese heritage"
+    },
+    {
+      "href": "/destinations/kerala",
+      "text": "Kerala Serene backwaters, lush tea gardens, and Ayurvedic wellness"
+    },
+    {
+      "href": "/destinations/rajasthan",
+      "text": "Rajasthan Royal palaces, desert landscapes, and vibrant culture"
+    },
+    {
+      "href": "/destinations/delhi",
+      "text": "Delhi Historic monuments, bustling markets, and diverse cuisine"
+    },
+    {
+      "href": "/destinations/sikkim",
+      "text": "Sikkim Himalayan paradise with Buddhist monasteries and mountain views"
+    },
+    {
+      "href": "/destinations/kashmir",
+      "text": "Kashmir Heaven on Earth with Dal Lake, houseboats, and snow-capped peaks"
+    },
+    {
+      "href": "/destinations/france",
+      "text": "France Romantic Paris, French Riviera, and world-class cuisine"
+    },
+    {
+      "href": "/destinations/switzerland",
+      "text": "Switzerland Alpine beauty, pristine lakes, and chocolate paradise"
+    },
+    {
+      "href": "/destinations/uae",
+      "text": "United Arab Emirates Modern marvels, luxury shopping, and desert adventures"
+    },
+    {
+      "href": "/destinations/thailand",
+      "text": "Thailand Tropical beaches, ancient temples, and vibrant street life"
+    },
+    {
+      "href": "/destinations/azerbaijan",
+      "text": "Azerbaijan Land of Fire with modern architecture and ancient history"
+    },
+    {
+      "href": "/destinations/singapore",
+      "text": "Singapore Futuristic city-state with Gardens by the Bay and diverse culture"
+    },
+    {
+      "href": "/domestic",
+      "text": "View All Domestic"
+    },
+    {
+      "href": "/international",
+      "text": "View All International"
+    },
+    {
+      "href": "/customize-trip",
+      "text": "Plan My Trip"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A",
+      "text": "WhatsApp Us"
+    },
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/domestic",
+      "text": "Domestic Tours"
+    },
+    {
+      "href": "/international",
+      "text": "International Tours"
+    },
+    {
+      "href": "/packages",
+      "text": "Tour Packages"
+    },
+    {
+      "href": "/about",
+      "text": "About Us"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/destinations/goa",
+      "text": "Goa"
+    },
+    {
+      "href": "/destinations/kerala",
+      "text": "Kerala"
+    },
+    {
+      "href": "/destinations/maldives",
+      "text": "Maldives"
+    },
+    {
+      "href": "/destinations/dubai",
+      "text": "Dubai"
+    },
+    {
+      "href": "/destinations/switzerland",
+      "text": "Switzerland"
+    },
+    {
+      "href": "/destinations/thailand",
+      "text": "Thailand"
+    },
+    {
+      "href": "tel:+916361877187",
+      "text": "+91 63618 77187"
+    },
+    {
+      "href": "mailto:showkath@prestigeholidays4u.com",
+      "text": "showkath@prestigeholidays4u.com"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A",
+      "text": "Chat with us on WhatsApp"
+    }
+  ],
+  "imageAlts": [
+    {
+      "alt": "Prestige Holidays 4U - Premium Tour Packages from Bangalore",
+      "src": "/logo.png"
+    },
+    {
+      "alt": "Goa tour package - Sun-kissed beaches, vibrant nightlife, and Portuguese heritage",
+      "src": "https://images.pexels.com/photos/3155726/pexels-photo-3155726.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Kerala tour package - Serene backwaters, lush tea gardens, and Ayurvedic wellness",
+      "src": "https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Rajasthan tour package - Royal palaces, desert landscapes, and vibrant culture",
+      "src": "https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Delhi tour package - Historic monuments, bustling markets, and diverse cuisine",
+      "src": "https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Sikkim tour package - Himalayan paradise with Buddhist monasteries and mountain views",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0vjwkQO8aku9XLNRST2plWBejUOP38DQIVmaA"
+    },
+    {
+      "alt": "Kashmir tour package - Heaven on Earth with Dal Lake, houseboats, and snow-capped peaks",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS09JD0uhSowgAe5MpOhHPYl4Nqi7CtLzvfJyWc"
+    },
+    {
+      "alt": "France tour package - Romantic Paris, French Riviera, and world-class cuisine",
+      "src": "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Switzerland tour package - Alpine beauty, pristine lakes, and chocolate paradise",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS01Ghl6BLv35Y4ROb12fq7zwVWicteMJhkuUSs"
+    },
+    {
+      "alt": "United Arab Emirates tour package - Modern marvels, luxury shopping, and desert adventures",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0SvVEiLsxUa5fhwnZDXIP78s96E03BmkrvMJG"
+    },
+    {
+      "alt": "Thailand tour package - Tropical beaches, ancient temples, and vibrant street life",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0Z1yXge9KY7NVTmJ4dkpEGiQXzgP2MRv5yDxc"
+    },
+    {
+      "alt": "Azerbaijan tour package - Land of Fire with modern architecture and ancient history",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0FhaAGdZ6CpM4fYeILwnGytbVq1aQEJTlOcPg"
+    },
+    {
+      "alt": "Singapore tour package - Futuristic city-state with Gardens by the Bay and diverse culture",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0sI0nuYgk6hHcyD9evuSOgpGPIKdAL0TJFWfx"
+    },
+    {
+      "alt": "Goa - popular travel destination by Prestige Holidays 4U",
+      "src": "https://images.pexels.com/photos/3155726/pexels-photo-3155726.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Kerala - popular travel destination by Prestige Holidays 4U",
+      "src": "https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Rajasthan - popular travel destination by Prestige Holidays 4U",
+      "src": "https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Delhi - popular travel destination by Prestige Holidays 4U",
+      "src": "https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Sikkim - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0vjwkQO8aku9XLNRST2plWBejUOP38DQIVmaA"
+    },
+    {
+      "alt": "Kashmir - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS09JD0uhSowgAe5MpOhHPYl4Nqi7CtLzvfJyWc"
+    },
+    {
+      "alt": "France - popular travel destination by Prestige Holidays 4U",
+      "src": "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1920"
+    },
+    {
+      "alt": "Switzerland - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS01Ghl6BLv35Y4ROb12fq7zwVWicteMJhkuUSs"
+    },
+    {
+      "alt": "United Arab Emirates - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0SvVEiLsxUa5fhwnZDXIP78s96E03BmkrvMJG"
+    },
+    {
+      "alt": "Thailand - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0Z1yXge9KY7NVTmJ4dkpEGiQXzgP2MRv5yDxc"
+    },
+    {
+      "alt": "Azerbaijan - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0FhaAGdZ6CpM4fYeILwnGytbVq1aQEJTlOcPg"
+    },
+    {
+      "alt": "Singapore - popular travel destination by Prestige Holidays 4U",
+      "src": "https://11oq9t1hbf.ufs.sh/f/8PKHUoP7yoS0sI0nuYgk6hHcyD9evuSOgpGPIKdAL0TJFWfx"
+    },
+    {
+      "alt": "Prestige Holidays 4U logo",
+      "src": "/logo.png"
+    }
+  ],
+  "ctas": [
+    {
+      "type": "button",
+      "text": "+91 63618 77187"
+    },
+    {
+      "type": "button",
+      "text": "View All Domestic Destinations"
+    },
+    {
+      "type": "button",
+      "text": "View All International Destinations"
+    },
+    {
+      "type": "button",
+      "text": "View All Domestic"
+    },
+    {
+      "type": "button",
+      "text": "View All International"
+    },
+    {
+      "type": "button",
+      "text": "Plan My Trip"
+    },
+    {
+      "type": "button",
+      "text": "Contact Us"
+    },
+    {
+      "type": "button",
+      "text": "WhatsApp Us"
+    },
+    {
+      "type": "link",
+      "text": "+91 63618 77187",
+      "href": "tel:+916361877187"
+    },
+    {
+      "type": "link",
+      "text": "WhatsApp Us",
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A"
+    },
+    {
+      "type": "link",
+      "text": "+91 63618 77187",
+      "href": "tel:+916361877187"
+    },
+    {
+      "type": "link",
+      "text": "showkath@prestigeholidays4u.com",
+      "href": "mailto:showkath@prestigeholidays4u.com"
+    },
+    {
+      "type": "link",
+      "text": "Chat with us on WhatsApp",
+      "href": "https://wa.me/916361877187?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package.%0A%0ADestination%3A%0ATravel%20Dates%3A%0ANumber%20of%20Adults%3A%0ANumber%20of%20Children%3A%0ABudget%20Range%3A%0ADeparture%20City%3A%0AHotel%20Preference%20(3%E2%98%85%20%2F%204%E2%98%85%20%2F%205%E2%98%85)%3A%0AAdditional%20Requirements%3A"
+    }
+  ],
+  "text": "Premium Domestic & International Tour Packages | Prestige Holidays 4U Prestige Holidays 4U Where Great Journey Begins Home Domestic International Packages Customize Trip About Contact +91 63618 77187 Where Great Journey Begins Discover the world&#x27;s most breathtaking destinations Explore Incredible India Discover the diverse beauty of India, from pristine beaches to majestic mountains Goa India Sun-kissed beaches, vibrant nightlife, and Portuguese heritage View Details Kerala India Serene backwaters, lush tea gardens, and Ayurvedic wellness View Details Rajasthan India Royal palaces, desert landscapes, and vibrant culture View Details Delhi India Historic monuments, bustling markets, and diverse cuisine View Details Sikkim India Himalayan paradise with Buddhist monasteries and mountain views View Details Kashmir India Heaven on Earth with Dal Lake, houseboats, and snow-capped peaks View Details View All Domestic Destinations Discover the World Embark on unforgettable international adventures to stunning destinations across the globe France France Romantic Paris, French Riviera, and world-class cuisine View Details Switzerland Switzerland Alpine beauty, pristine lakes, and chocolate paradise View Details United Arab Emirates UAE Modern marvels, luxury shopping, and desert adventures View Details Thailand Thailand Tropical beaches, ancient temples, and vibrant street life View Details Azerbaijan Azerbaijan Land of Fire with modern architecture and ancient history View Details Singapore Singapore Futuristic city-state with Gardens by the Bay and diverse culture View Details View All International Destinations Why Choose Prestige Holidays 4U? Your satisfaction and memorable experiences are our top priorities Trusted & Secure Years of experience delivering safe and reliable travel experiences Best Price Guarantee Competitive pricing with no hidden costs or surprises Easy Booking Simple and quick booking process with instant confirmation 24/7 Support Round-the-clock customer support for all your travel needs Expert Guidance Professional travel consultants to plan your perfect trip Wide Network Extensive network of partners across domestic and international destinations Popular Destinations Explore our most sought-after travel destinations Goa Sun-kissed beaches, vibrant nightlife, and Portuguese heritage Kerala Serene backwaters, lush tea gardens, and Ayurvedic wellness Rajasthan Royal palaces, desert landscapes, and vibrant culture Delhi Historic monuments, bustling markets, and diverse cuisine Sikkim Himalayan paradise with Buddhist monasteries and mountain views Kashmir Heaven on Earth with Dal Lake, houseboats, and snow-capped peaks France Romantic Paris, French Riviera, and world-class cuisine Switzerland Alpine beauty, pristine lakes, and chocolate paradise United Arab Emirates Modern marvels, luxury shopping, and desert adventures Thailand Tropical beaches, ancient temples, and vibrant street life Azerbaijan Land of Fire with modern architecture and ancient history Singapore Futuristic city-state with Gardens by the Bay and diverse culture View All Domestic View All International Ready to Start Your Journey? Let us help you create unforgettable memories. Contact us today to plan your perfect vacation! Plan My Trip Contact Us WhatsApp Us Prestige Holidays 4U Where Great Journey Begins Your trusted partner for domestic and international travel experiences. Creating memorable journeys since years. Quick Links Home Domestic Tours International Tours Tour Packages About Us Contact Us Popular Destinations Goa Kerala Maldives Dubai Switzerland Thailand Contact Info No 638/G, HBR 1st Stage, 2nd Block, HBR Layout, Karnataka, Bengaluru – 560043 +91 63618 77187 showkath@prestigeholidays4u.com © 2026 Prestige Holidays 4U. All rights reserved. Chat with us on WhatsApp"
+}
