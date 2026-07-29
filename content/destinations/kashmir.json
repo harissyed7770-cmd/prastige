@@ -3,12 +3,52 @@
   "name": "Kashmir",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Houseboat mornings on Dal Lake, gondola afternoons above the snowline",
+  "hero_description": "Kashmir's valley runs on two seasons' worth of magic: spring shikara rides past Dal Lake's floating gardens and the 400-year-old Mughal terraces above it, then winter's transformation of Gulmarg into India's premier ski slope — served by one of the world's highest cable cars. Between them sit pine-valley walks at Pahalgam and autumn's red-gold chinar turn.",
+  "best_time_to_visit": "April to June for blooming gardens and lake season; late December to February for snow and skiing at Gulmarg — and late October catches the chinar colour plus the saffron bloom at Pampore.",
+  "top_attractions": [
+    {
+      "name": "Dal Lake",
+      "description": "Srinagar's floating world — cedar houseboats, shikara water-taxis seating four to six, vegetable gardens that literally float, and a dawn market conducted entirely from boats.",
+      "image_needed": true
+    },
+    {
+      "name": "Gulmarg Gondola",
+      "description": "One of the world's highest cable cars, climbing in two stages from Gulmarg via Kongdoori to nearly 3,950 m on the Apharwat ridge — ski terrain in winter, wildflower meadow in summer.",
+      "image_needed": true
+    },
+    {
+      "name": "Mughal Gardens of Srinagar",
+      "description": "Shalimar Bagh (laid out under Emperor Jahangir in 1619) and Nishat Bagh (1633) step down in fountain-fed terraces toward Dal Lake, backed by chinar trees.",
+      "image_needed": true
+    },
+    {
+      "name": "Pahalgam",
+      "description": "The 'Valley of Shepherds' on the Lidder River — pine-forest pony trails fan out to Betaab Valley and the village of Aru.",
+      "image_needed": true
+    },
+    {
+      "name": "Sonamarg",
+      "description": "The 'Meadow of Gold' at about 2,700 m — the summer walk to Thajiwas Glacier starts here.",
+      "image_needed": true
+    },
+    {
+      "name": "Saffron fields of Pampore",
+      "description": "One of the world's few saffron-growing regions — for two weeks from late October the fields turn purple with crocus bloom.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "A night aboard a Dal Lake houseboat",
+    "Dawn shikara ride to the floating vegetable market",
+    "Riding both stages of the Gulmarg Gondola",
+    "Skiing or snowboarding at Gulmarg in winter",
+    "Pony trek from Pahalgam to Betaab or Aru valley",
+    "Mughal gardens circuit — Shalimar, Nishat, Chashme Shahi",
+    "Wazwan feast with kahwa tea to finish",
+    "Autumn walk under turning chinar trees"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
