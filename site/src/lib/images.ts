@@ -239,6 +239,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  switzerland: {
+    hero: {
+      src: "/images/switzerland/hero.jpg",
+      alt: "A Swiss Alpine village nestled beneath dramatic pale limestone cliffs under a blue sky with scattered clouds",
+    },
+    attractions: {
+      "Jungfraujoch — Top of Europe": {
+        src: "/images/switzerland/jungfraujoch.jpg",
+        alt: "The stone Sphinx Observatory building perched on Jungfraujoch's rocky summit, a Swiss flag flying against a clear blue sky",
+      },
+      "Glacier Express": {
+        src: "/images/switzerland/glacier-express.jpg",
+        alt: "A red Glacier Express train winding through a snow-covered valley just below the Oberalp Pass summit",
+      },
+      "Interlaken": {
+        src: "/images/switzerland/interlaken.jpg",
+        alt: "Turquoise Lake Brienz and the town of Interlaken seen through pine trees from the Harder Kulm viewpoint",
+      },
+      "Lucerne & the Chapel Bridge": {
+        src: "/images/switzerland/lucerne.jpg",
+        alt: "The wooden Chapel Bridge and octagonal Water Tower spanning the Reuss river in Lucerne's old town",
+      },
+      "Chillon Castle, Montreux": {
+        src: "/images/switzerland/chillon-castle.jpg",
+        alt: "Chillon Castle glowing at dusk on the shore of Lake Geneva, the snow-capped Dents du Midi rising behind",
+      },
+      "GoldenPass route": {
+        src: "/images/switzerland/goldenpass.jpg",
+        alt: "A dark blue GoldenPass panoramic train stopped at Zweisimmen station with green alpine meadows behind",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
