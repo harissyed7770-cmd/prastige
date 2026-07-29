@@ -6,12 +6,26 @@
   "duration": "6 Nights / 7 Days",
   "tier": "Premium",
   "audience": "Couples",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Seven days built around Switzerland's most romantic set pieces: Lucerne's medieval lakefront, two nights between Interlaken's lakes, the train to Europe's highest station at Jungfraujoch, and the GoldenPass panorama down to Montreux and Chillon Castle. Slow trains, big windows, no rushing.",
+  "highlights": [
+    "Jungfraujoch — Top of Europe at 3,454 m",
+    "GoldenPass panoramic train from Interlaken to Montreux",
+    "Chapel Bridge and a Lake Lucerne cruise",
+    "Chillon Castle on the Lake Geneva shore"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Arrive & Lucerne", "description": "Land at Zurich, train to Lucerne, first walk across the flower-lined Chapel Bridge and through the old town." },
+    { "day": 2, "title": "Mt. Pilatus golden round trip", "description": "Lake boat out, the world's steepest cogwheel railway up, cable car down — Lucerne's classic day, ending with a lakeside dinner." },
+    { "day": 3, "title": "To Interlaken", "description": "Train into the Bernese Oberland, afternoon cruise on Lake Brienz, sunset funicular to Harder Kulm." },
+    { "day": 4, "title": "Jungfraujoch", "description": "The big one: rail via Kleine Scheidegg to Europe's highest station — Ice Palace, Sphinx terrace, and the Aletsch Glacier below." },
+    { "day": 5, "title": "GoldenPass to Montreux", "description": "Panoramic carriages from chalet country down to Lake Geneva's vineyard shore; evening promenade in Montreux." },
+    { "day": 6, "title": "Chillon & lake day", "description": "Morning at the moated Chillon Castle, lazy lakeside afternoon — or an optional Glacier Express taster via the mountains." },
+    { "day": 7, "title": "Departure", "description": "Train to Geneva or Zurich for the flight home." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Switzerland Romantic Escape (6 Nights / 7 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Schengen visa required for Indian passport holders. Rail product (Swiss Travel Pass vs point-to-point) is a business decision — inclusions left empty for owner confirmation.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

@@ -3,12 +3,52 @@
   "name": "Switzerland",
   "country": "Switzerland",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Europe's highest railway station, reached in time for lunch",
+  "hero_description": "Switzerland is alpine drama made effortless: trains run to a station carved into the mountain at 3,454 m (Jungfraujoch, above the Alps' longest glacier), panoramic carriages cross 291 bridges on the Glacier Express, and towns like Lucerne and Interlaken sit postcard-ready between lakes and peaks. You never need hiking boots — though you may want them.",
+  "best_time_to_visit": "Late June to early September for open trails, running lifts and wildflower meadows; mid-September–October is quieter and crisp — and Jungfraujoch stays snowy whatever the month.",
+  "top_attractions": [
+    {
+      "name": "Jungfraujoch — Top of Europe",
+      "description": "Europe's highest railway station at 3,454 m, reached from Interlaken via Kleine Scheidegg — walk the Ice Palace tunnels and step onto the Sphinx terrace above the Aletsch Glacier, the longest in the Alps.",
+      "image_needed": true
+    },
+    {
+      "name": "Glacier Express",
+      "description": "The 'world's slowest express' — around eight hours from Zermatt to St. Moritz over 291 bridges, through 91 tunnels, and across the 2,033 m Oberalp Pass, all behind panoramic glass.",
+      "image_needed": true
+    },
+    {
+      "name": "Interlaken",
+      "description": "A resort town wedged between the blue-green of Lake Thun and Lake Brienz — the Harder Kulm funicular puts both lakes and the Eiger-Mönch-Jungfrau wall in one view.",
+      "image_needed": true
+    },
+    {
+      "name": "Lucerne & the Chapel Bridge",
+      "description": "A preserved medieval old town on its lake, crossed by the 14th-century Kapellbrücke — one of Europe's oldest covered wooden bridges — with Mt. Pilatus rising behind.",
+      "image_needed": true
+    },
+    {
+      "name": "Chillon Castle, Montreux",
+      "description": "A moated 12th-century island castle on Lake Geneva's shore near Montreux — among the most-visited historic buildings in Switzerland.",
+      "image_needed": true
+    },
+    {
+      "name": "GoldenPass route",
+      "description": "The panoramic rail line linking Interlaken to Montreux — from Bernese Oberland chalets down to Lake Geneva vineyards in an afternoon.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Rail excursion to Jungfraujoch with the Ice Palace and Sphinx terrace",
+    "A panoramic segment of the Glacier Express",
+    "Boat cruise on Lake Brienz or Lake Thun",
+    "Sunset funicular to Harder Kulm above Interlaken",
+    "Mt. Pilatus 'golden round trip' by boat, cogwheel and cable car",
+    "Chillon Castle visit along the Montreux lakeside walk",
+    "Swiss chocolate and cheese tasting",
+    "Optional paragliding over Interlaken"
+  ],
+  "sample_itinerary_days": 7,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
