@@ -3,12 +3,52 @@
   "name": "UAE",
   "country": "United Arab Emirates",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "Seven emirates, one road trip — the Emirates beyond Dubai",
+  "hero_description": "There's a whole federation beyond Dubai's skyline. Abu Dhabi answers with the 82-domed Sheikh Zayed Grand Mosque, the Louvre's rain-of-light dome and a working presidential palace you can tour; Yas Island stacks three theme parks against an F1 circuit; Sharjah keeps the museums; and the Hajar mountains drop to snorkelling coves on the east coast.",
+  "best_time_to_visit": "December to March — the UAE's mild winter, when every emirate is comfortable outdoors; summers push well past 40°C.",
+  "top_attractions": [
+    {
+      "name": "Sheikh Zayed Grand Mosque, Abu Dhabi",
+      "description": "One of the world's largest mosques — 82 domes, over a thousand columns, gold-gilded chandeliers and the world's largest hand-knotted carpet; time your free guided tour for dusk, when the white marble starts to glow.",
+      "image_needed": true
+    },
+    {
+      "name": "Louvre Abu Dhabi",
+      "description": "Jean Nouvel's museum on Saadiyat Island, opened 2017 under a perforated dome that filters sunlight into a 'rain of light' — the Arab world's first universal museum.",
+      "image_needed": true
+    },
+    {
+      "name": "Qasr Al Watan",
+      "description": "Abu Dhabi's working Presidential Palace, opened to visitors in 2019 — white-and-gold state halls and a library you can actually walk through.",
+      "image_needed": true
+    },
+    {
+      "name": "Yas Island",
+      "description": "Ferrari World — launching Formula Rossa, one of the world's fastest roller coasters — plus Warner Bros. World, Yas Waterworld and the Formula 1 circuit next door.",
+      "image_needed": true
+    },
+    {
+      "name": "Sharjah's museum quarter",
+      "description": "The UAE's culture capital — the Museum of Islamic Civilization, Sharjah Art Museum and a dense old heritage district, fifteen minutes from Dubai's border.",
+      "image_needed": true
+    },
+    {
+      "name": "Fujairah & the east coast",
+      "description": "Where the Hajar mountains meet the Gulf of Oman — snorkelling at Snoopy Island and Al-Bidyah, one of the oldest mosques in the UAE.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Dusk guided tour of the Sheikh Zayed Grand Mosque",
+    "An afternoon under the Louvre Abu Dhabi's rain-of-light dome",
+    "Touring the state halls of Qasr Al Watan",
+    "Theme-park day on Yas Island — Ferrari World and Warner Bros. World",
+    "Corniche walk with an Emirates Palace photo stop",
+    "Museum-quarter afternoon in Sharjah",
+    "East-coast day trip — Hajar mountains and Fujairah snorkelling",
+    "Extending into Dubai — see our dedicated Dubai page"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
