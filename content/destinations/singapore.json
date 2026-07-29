@@ -3,12 +3,52 @@
   "name": "Singapore",
   "country": "Singapore",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
+  "tagline": "A city that lights its gardens and gave hawker food UNESCO status",
+  "hero_description": "Singapore compresses a remarkable amount of spectacle into one clean, easy city: 50-metre Supertrees that perform a free light show nightly, the world's tallest indoor waterfall inside a misty dome (and another one at the airport), Universal Studios on its own resort island, and hawker centres whose food culture is UNESCO-listed. Five to six hours direct from Bengaluru, and four to five days covers it all.",
+  "best_time_to_visit": "Genuinely year-round — November to March is pleasant and festive, while February to April sees the least rain; being equatorial, a brief afternoon shower is always possible.",
+  "top_attractions": [
+    {
+      "name": "Gardens by the Bay",
+      "description": "A 101-hectare garden where 25–50 m Supertrees erupt into the free Garden Rhapsody light show every night — and the Cloud Forest dome hides a 35 m indoor waterfall in perpetual mist.",
+      "image_needed": true
+    },
+    {
+      "name": "Marina Bay Sands SkyPark",
+      "description": "The observation deck bridging the three towers, looking down on the bay — while the free Spectra light-and-water show plays at the promenade below every evening.",
+      "image_needed": true
+    },
+    {
+      "name": "Sentosa & Universal Studios",
+      "description": "Singapore's resort island, reached by cable car or monorail — Universal Studios Singapore and the vast S.E.A. Aquarium anchor a full family day.",
+      "image_needed": true
+    },
+    {
+      "name": "Night Safari",
+      "description": "The world's first nocturnal wildlife park, open since 1994 — tram loops and walking trails through habitats that wake up after dark.",
+      "image_needed": true
+    },
+    {
+      "name": "Hawker centres",
+      "description": "Singapore's hawker culture holds UNESCO intangible-heritage status — chicken rice, laksa and satay done superbly for a few dollars at Maxwell or Lau Pa Sat.",
+      "image_needed": true
+    },
+    {
+      "name": "Jewel Changi",
+      "description": "The Rain Vortex — at roughly 40 m the world's tallest indoor waterfall — pours through the roof of the airport's forest-mall, worth scheduling your departure day around.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Evening at the Supertree Grove light show after the Cloud Forest and Flower Dome",
+    "SkyPark views and the Spectra show from the Marina Bay promenade",
+    "Universal Studios Singapore full day",
+    "Night Safari tram ride and walking trails",
+    "Hawker-centre food crawl through UNESCO-listed food culture",
+    "Heritage walk through Little India and Chinatown",
+    "Bumboat cruise on the Singapore River past the Merlion",
+    "Rain Vortex stop at Jewel Changi on departure day"
+  ],
   "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
