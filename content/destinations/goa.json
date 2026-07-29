@@ -3,12 +3,52 @@
   "name": "Goa",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Two coastlines in one state: party-bright north, palm-quiet south",
+  "hero_description": "India's smallest state packs a double life: the buzzing water-sports beaches of Baga and Calangute in the north, and the slow, palm-fringed sands of the south. Between the two sits 450 years of Portuguese history — the UNESCO-listed churches of Old Goa and the painted lanes of Fontainhas — that most beach itineraries never see.",
+  "best_time_to_visit": "November to February — dry days at 21–32°C with a calm, clear sea; January gives you peak-season weather without the December crowds. (Monsoon bonus: June–September is when Dudhsagar Falls runs at full force.)",
+  "top_attractions": [
+    {
+      "name": "Basilica of Bom Jesus",
+      "description": "Consecrated in 1605 and part of the UNESCO World Heritage churches of Old Goa, this laterite basilica holds the relics of St. Francis Xavier — the feast in his honour fills Old Goa every 3rd of December.",
+      "image_needed": true
+    },
+    {
+      "name": "Dudhsagar Falls",
+      "description": "A four-tiered, roughly 310-metre cascade on the Mandovi River inside Bhagwan Mahaveer Sanctuary, reached by a bumpy shared-jeep safari from Kulem — at its thundering best during and just after the monsoon.",
+      "image_needed": true
+    },
+    {
+      "name": "Fontainhas, Panaji",
+      "description": "Goa's Portuguese-era Latin Quarter: narrow lanes of ochre-yellow, green and indigo houses with azulejo-tiled name plates, best explored on a slow morning walk with a bakery stop.",
+      "image_needed": true
+    },
+    {
+      "name": "Fort Aguada",
+      "description": "A 1612 Portuguese sea fort above Sinquerim Beach, built around freshwater springs that once resupplied passing ships — its four-storey lighthouse is among the oldest of its kind in Asia.",
+      "image_needed": true
+    },
+    {
+      "name": "Baga & Calangute beach belt",
+      "description": "The state's water-sports headquarters — parasailing, jet-ski and banana-boat rides off a near-continuous 7 km stretch of sand shared with Candolim.",
+      "image_needed": true
+    },
+    {
+      "name": "Anjuna Flea Market",
+      "description": "The Wednesday institution that has run since Goa's 1960s hippie days — stalls of spices, silver and handicrafts spread behind Anjuna's rocky beach.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Parasailing, jet-ski and banana-boat rides at Baga–Calangute",
+    "Jeep safari to Dudhsagar Falls with a swim in the plunge pool (seasonal)",
+    "Heritage walk through the painted lanes of Fontainhas",
+    "Old Goa churches circuit — Basilica of Bom Jesus and Se Cathedral",
+    "Sunset cruise on the Mandovi River from Panaji",
+    "Spice plantation tour in Ponda with a traditional Goan lunch",
+    "Beach-shack seafood crawl — fish recheado, chicken xacuti, bebinca",
+    "Night shopping at the Arpora Saturday Night Market"
+  ],
+  "sample_itinerary_days": 5,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

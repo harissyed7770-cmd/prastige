@@ -30,14 +30,16 @@ because the business clearly intends to sell them (a Dubai package exists).
 | 13 | `maldives` | Maldives | **404 — broken footer link** |
 | 14 | `dubai` | Dubai | **404 — broken footer link; Dubai package exists** |
 
-Open question for the owner: keep Dubai as its own page alongside UAE, or fold
-Dubai into the UAE page? (The old site linked both; the package is
-Dubai-specific. Recommendation: keep both — Dubai as the city page the package
-links to, UAE for Abu Dhabi/Sharjah breadth.)
+**Owner decision (2026-07-29):** Dubai and UAE stay as two separate pages.
+Dubai gets its own file — this fixes the broken footer link and gives the
+existing Dubai Luxury Tour package a proper home. UAE covers Abu Dhabi /
+Sharjah breadth.
 
-## Candidate additions — OPTIONS ONLY, not in the working list
+## Future additions — logged only, NOT in scope
 
-Flagged for owner decision; none of these get content unless approved.
+**Owner decision (2026-07-29):** baseline 14 approved as-is. The candidates
+below are logged so we don't lose track; no stub files, no content until
+explicitly approved.
 
 ### Domestic candidates
 
@@ -59,7 +61,6 @@ Flagged for owner decision; none of these get content unless approved.
 
 ## Status
 
-All 14 baseline destinations have stub JSON files at
-`/content/destinations/<slug>.json` with `content_status: "not_started"`.
-No destination content has been written. Awaiting owner decision on the
-candidate additions before research begins.
+Baseline 14 approved by owner on 2026-07-29. Research and fresh writing in
+progress — per-destination status is tracked in each
+`/content/destinations/<slug>.json` (`content_status`).

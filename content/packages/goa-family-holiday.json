@@ -6,12 +6,24 @@
   "duration": "4 Nights / 5 Days",
   "tier": "Standard",
   "audience": "Families",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Five easy days built for families: safe, popular beaches and water sports in North Goa, a jeep adventure to Dudhsagar Falls that kids talk about for years, and one unhurried day of Old Goa's churches and Panaji's painted lanes — with beach-shack dinners in between.",
+  "highlights": [
+    "Water sports morning at Baga–Calangute",
+    "Shared-jeep safari to the four-tiered Dudhsagar Falls",
+    "Spice plantation tour in Ponda with a Goan lunch",
+    "Old Goa's UNESCO churches and a Mandovi sunset cruise"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Arrive & first sunset", "description": "Airport pickup, check-in, and an easy evening on Calangute beach — shack dinner with your toes in the sand." },
+    { "day": 2, "title": "North Goa beaches & Fort Aguada", "description": "Morning water sports at Baga (parasailing, banana boat), afternoon at the 1612 Fort Aguada and its lighthouse, evening free at Candolim." },
+    { "day": 3, "title": "Dudhsagar Falls & spice farm", "description": "Early jeep safari from Kulem to the 310 m Dudhsagar Falls, then a spice plantation tour in Ponda with a traditional Goan lunch before heading back." },
+    { "day": 4, "title": "Old Goa & Panaji", "description": "Basilica of Bom Jesus and Se Cathedral in the morning, a walk through Fontainhas' painted lanes, and a family sunset cruise on the Mandovi." },
+    { "day": 5, "title": "Departure", "description": "Beach breakfast, souvenir stop, and airport drop." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Goa Family Holiday (4 Nights / 5 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Inclusions/exclusions intentionally left empty — confirm what the package actually covers (transfers, breakfast, activity tickets) rather than us inventing them.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
