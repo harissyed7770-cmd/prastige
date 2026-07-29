@@ -143,6 +143,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  sikkim: {
+    hero: {
+      src: "/images/sikkim/hero.jpg",
+      alt: "Weathered white prayer flags printed with mantras strung across the frame, misty forested Himalayan ridges and a snow patch behind",
+    },
+    attractions: {
+      "Tsomgo (Changu) Lake": {
+        src: "/images/sikkim/tsomgo-lake.jpg",
+        alt: "Tsomgo Lake mirroring bare mountain slopes, with a black yak in red tassels standing on the stone shoreline path",
+      },
+      "Nathula Pass": {
+        src: "/images/sikkim/nathula-pass.jpg",
+        alt: "The road curving up to Nathula Pass through snow-dusted slopes, the red-roofed border complex on the ridge above",
+      },
+      "Rumtek Monastery": {
+        src: "/images/sikkim/rumtek-monastery.jpg",
+        alt: "Rumtek Monastery's ornately painted main hall reflected in a rain-wet courtyard, monks in red robes crossing and mist in the trees",
+      },
+      "Kanchenjunga viewpoints": {
+        src: "/images/sikkim/kanchenjunga.jpg",
+        alt: "The snow faces of the Kanchenjunga massif catching first light above a dark silhouetted treeline, seen from Gangtok",
+      },
+      "MG Marg, Gangtok": {
+        src: "/images/sikkim/mg-marg.jpg",
+        alt: "Gangtok's pedestrian MG Marg full of evening strollers, ornate lamp posts and the Mahatma Gandhi statue mid-promenade",
+      },
+      "Gangtok Ropeway": {
+        src: "/images/sikkim/gangtok-ropeway.jpg",
+        alt: "A red Gangtok Ropeway cabin suspended high above the hill town's stacked houses and winding main road",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
