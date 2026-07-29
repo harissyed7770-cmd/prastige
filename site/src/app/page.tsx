@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 import { CTABand } from "@/components/CTABand";
 import { DestinationCard } from "@/components/DestinationCard";
 import { FadeIn } from "@/components/FadeIn";
-import { ImageSlot } from "@/components/ImageSlot";
+import { HeroVideo } from "@/components/HeroVideo";
 import { PackageCard } from "@/components/PackageCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Testimonials } from "@/components/Testimonials";
@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <section className="relative flex min-h-[420px] items-end lg:h-[72vh]">
         <div className="absolute inset-0">
-          <ImageSlot label="Hero — awaiting real photography" dark />
+          <HeroVideo />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-scrim to-transparent" />
         <div className="relative mx-auto w-full max-w-[1200px] px-4 pb-16 pt-32 lg:px-12">

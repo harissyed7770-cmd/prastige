@@ -4,11 +4,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const src = path.resolve(here, "..", "..", "assets", "images");
-const dest = path.resolve(here, "..", "public", "images");
+const imgSrc = path.resolve(here, "..", "..", "assets", "images");
+const imgDest = path.resolve(here, "..", "public", "images");
+const videoSrc = path.resolve(here, "..", "..", "assets", "video");
+const videoDest = path.resolve(here, "..", "public", "video");
 
-if (fs.existsSync(src)) {
-  fs.mkdirSync(dest, { recursive: true });
-  fs.cpSync(src, dest, { recursive: true });
+if (fs.existsSync(imgSrc)) {
+  fs.mkdirSync(imgDest, { recursive: true });
+  fs.cpSync(imgSrc, imgDest, { recursive: true });
   console.log(`synced assets/images -> public/images`);
+}
+if (fs.existsSync(videoSrc)) {
+  fs.mkdirSync(videoDest, { recursive: true });
+  fs.cpSync(videoSrc, videoDest, { recursive: true });
+  console.log(`synced assets/video -> public/video`);
 }

@@ -427,6 +427,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  dubai: {
+    hero: {
+      src: "/images/dubai/hero.jpg",
+      alt: "Dubai's skyline in silhouette at sunset, the Burj Khalifa's spire standing tallest against a golden-orange sky",
+    },
+    attractions: {
+      "Burj Khalifa — At the Top": {
+        src: "/images/dubai/burj-khalifa.jpg",
+        alt: "The Burj Khalifa's illuminated spire towering over Dubai's skyline at dusk, seen across the water",
+      },
+      "Desert safari": {
+        src: "/images/dubai/desert-safari.jpg",
+        alt: "A white 4x4 cresting a golden sand dune outside Dubai, tyre tracks rippling across the desert",
+      },
+      "Dubai Mall": {
+        src: "/images/dubai/dubai-mall.jpg",
+        alt: "Aerial view of Dubai Mall's curved rooftop and the turquoise Burj Khalifa Lake fountain beside it",
+      },
+      "Old Dubai & the Creek souks": {
+        src: "/images/dubai/old-dubai-souk.jpg",
+        alt: "The wooden-canopied gateway reading 'Dubai City of Gold' at the entrance to Deira's Gold Souk",
+      },
+      "Palm Jumeirah": {
+        src: "/images/dubai/palm-jumeirah.jpg",
+        alt: "Aerial view of Palm Jumeirah's fronds, villa-lined streets and turquoise canals radiating from the trunk road",
+      },
+      "Dubai Frame & Museum of the Future": {
+        src: "/images/dubai/dubai-frame.jpg",
+        alt: "The golden rectangular Dubai Frame standing over the city skyline, Dubai Creek and Deira visible behind it",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {

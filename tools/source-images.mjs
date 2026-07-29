@@ -54,6 +54,32 @@ async function commons(query) {
   console.log(JSON.stringify(out, null, 1));
 }
 
+async function pexelsVideo(query) {
+  const res = await fetch(
+    `https://api.pexels.com/videos/search?query=${encodeURIComponent(query)}&per_page=10&orientation=landscape`,
+    { headers: { Authorization: env.PEXELS_API_KEY, ...UA } },
+  );
+  if (res.status === 429) { console.error("RATE_LIMIT pexels"); process.exit(2); }
+  const data = await res.json();
+  console.log(
+    JSON.stringify(
+      (data.videos ?? []).map((v) => ({
+        id: v.id,
+        duration: v.duration,
+        pageUrl: v.url,
+        user: v.user?.name,
+        w: v.width, h: v.height,
+        files: v.video_files
+          .filter((f) => f.file_type === "video/mp4")
+          .map((f) => ({ quality: f.quality, w: f.width, h: f.height, link: f.link }))
+          .sort((a, b) => (a.w ?? 0) - (b.w ?? 0)),
+        poster: v.image,
+      })),
+      null, 1,
+    ),
+  );
+}
+
 async function pexels(query) {
   const res = await fetch(
     `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=8&orientation=landscape`,
@@ -141,6 +167,6 @@ async function pick(source, query, indexStr, dest) {
   console.log(JSON.stringify({ source, ...c }, null, 1));
 }
 
-const commands = { commons, pexels, unsplash, download, pick };
+const commands = { commons, pexels, unsplash, download, pick, pexelsVideo };
 await commands[cmd](arg1, arg2, arg3, process.argv[6]);
 
