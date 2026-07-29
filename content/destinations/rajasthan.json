@@ -3,12 +3,52 @@
   "name": "Rajasthan",
   "country": "India",
   "category": "domestic",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "Pink city, blue city, white city — the royal circuit in colour",
+  "hero_description": "Rajasthan is India's great heritage road-trip: Jaipur's UNESCO-listed pink grid and mirror-mosaic Amber Fort, Jodhpur's indigo old town under the ramparts of Mehrangarh, and Udaipur's white palaces terraced above Lake Pichola. Push further west and the Thar desert delivers camel-back sunsets at the living fort city of Jaisalmer.",
+  "best_time_to_visit": "October to March — dry, cool sightseeing weather; desert summers are brutally hot, and forts are best walked first thing in the morning before the ~10 am crowds.",
+  "top_attractions": [
+    {
+      "name": "Amber Fort, Jaipur",
+      "description": "Begun in 1592 under Raja Man Singh I as the Kachwaha capital before Jaipur existed — red sandstone and marble courtyards climbing a ridge, crowned by the Sheesh Mahal's thousands of mirror mosaics.",
+      "image_needed": true
+    },
+    {
+      "name": "Hawa Mahal, Jaipur",
+      "description": "The 1799 'Palace of Winds' — a five-storey pink facade pierced by 953 jharokha windows, built so royal women could watch street processions unseen.",
+      "image_needed": true
+    },
+    {
+      "name": "Mehrangarh Fort, Jodhpur",
+      "description": "Founded around 1459 by Rao Jodha, its ramparts rise roughly 120 m straight from the rock — the view down over Jodhpur's indigo-washed houses is why it's called the Blue City.",
+      "image_needed": true
+    },
+    {
+      "name": "City Palace, Udaipur",
+      "description": "Rajasthan's largest palace complex, begun in 1553 under Udai Singh II — a terraced run of courtyards and balconies above Lake Pichola, with the Lake Palace appearing to float mid-lake below.",
+      "image_needed": true
+    },
+    {
+      "name": "Jaisalmer Fort",
+      "description": "Raised in 1156 in golden-yellow sandstone, this is one of the world's few living forts — a sizeable share of the old city's residents still live and trade inside its walls.",
+      "image_needed": true
+    },
+    {
+      "name": "Jaipur's walled old city",
+      "description": "A planned grid city of 1727, UNESCO World Heritage listed in 2019 — its bazaars still sort by trade: block-print textiles, blue pottery, silver and gemstones street by street.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Sunrise walk through Amber Fort before the tour buses arrive",
+    "Bazaar crawl in Jaipur's old city — block prints, blue pottery, gems",
+    "Sunset boat ride on Lake Pichola",
+    "Rampart walk at Mehrangarh with Blue City rooftop views",
+    "Camel safari and dunes sunset at Sam, near Jaisalmer",
+    "Rajasthani thali dinner with kalbeliya folk dance and puppetry",
+    "Stepwell stop at Panna Meena ka Kund near Amber",
+    "A night in a heritage haveli"
+  ],
+  "sample_itinerary_days": 7,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

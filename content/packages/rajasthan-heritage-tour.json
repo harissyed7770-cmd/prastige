@@ -6,12 +6,26 @@
   "duration": "6 Nights / 7 Days",
   "tier": "Premium",
   "audience": "All",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "The classic three-city royal circuit in seven days: Jaipur's Amber Fort and bazaars, Jodhpur's Mehrangarh above the Blue City, and Udaipur's lake palaces — paced with two nights in each city so the forts get mornings and the bazaars get evenings.",
+  "highlights": [
+    "Amber Fort at opening time, before the crowds",
+    "Mehrangarh Fort rampart walk over the Blue City",
+    "Sunset boat ride on Lake Pichola, Udaipur",
+    "Folk-dance dinner and old-city bazaar evenings"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Arrive Jaipur", "description": "Pickup and check-in, first look at the Hawa Mahal facade, evening in the walled city's bazaars." },
+    { "day": 2, "title": "Amber Fort & City Palace", "description": "Amber Fort at opening (Sheesh Mahal before the queues), Jaipur City Palace and Jantar Mantar after lunch, thali dinner with folk performance." },
+    { "day": 3, "title": "To Jodhpur", "description": "Travel to Jodhpur, evening around the clock-tower market at Sardar Bazaar." },
+    { "day": 4, "title": "Mehrangarh & the Blue City", "description": "Morning at Mehrangarh Fort and its museum, walk the indigo lanes below, then set off toward Udaipur — with an optional stop at the Ranakpur Jain temple en route." },
+    { "day": 5, "title": "Udaipur City Palace", "description": "The full City Palace complex above Lake Pichola, old-town ghats and rooftop dinner." },
+    { "day": 6, "title": "Lakes & lanes", "description": "Sunset boat ride on Lake Pichola past the Lake Palace, free time in Udaipur's artisan lanes." },
+    { "day": 7, "title": "Departure", "description": "Breakfast with a lake view, transfer for departure." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Rajasthan Heritage Tour (6 Nights / 7 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "Inclusions/exclusions intentionally left empty — confirm coverage (intercity transport mode, monument tickets, guide) rather than us inventing it.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
