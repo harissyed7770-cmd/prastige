@@ -3,12 +3,52 @@
   "name": "Dubai",
   "country": "United Arab Emirates",
   "category": "international",
-  "tagline": "",
-  "hero_description": "",
-  "best_time_to_visit": "",
-  "top_attractions": [],
-  "activities": [],
-  "sample_itinerary_days": null,
-  "content_status": "not_started",
+  "tagline": "From the world's tallest tower to a one-dirham creek crossing",
+  "hero_description": "Dubai runs on superlatives — the 828 m Burj Khalifa, a mall with over a thousand stores and its own aquarium, palm-shaped islands you can see from space. But the city's best trick is contrast: an hour from the observation decks you're dune-bashing in the desert, and one dirham buys a wooden abra ride across the creek to gold and spice souks that predate it all.",
+  "best_time_to_visit": "November to April — mild, outdoor-friendly weather in the 20s to low 30s °C; summer regularly tops 40°C, when Dubai retreats happily indoors.",
+  "top_attractions": [
+    {
+      "name": "Burj Khalifa — At the Top",
+      "description": "The world's tallest building at 828 m — observation decks on levels 124–125 (and a lounge at 148) look down on the Dubai Fountain, which performs at its feet every evening.",
+      "image_needed": true
+    },
+    {
+      "name": "Desert safari",
+      "description": "4x4 dune-bashing on the golden dunes outside the city, a camel ride at sunset, then BBQ dinner and live shows at a Bedouin-style camp under the stars.",
+      "image_needed": true
+    },
+    {
+      "name": "Dubai Mall",
+      "description": "One of the world's largest malls — 1,200-plus stores alongside a walk-through aquarium tunnel and an Olympic-size ice rink, at the base of the Burj Khalifa.",
+      "image_needed": true
+    },
+    {
+      "name": "Old Dubai & the Creek souks",
+      "description": "Cross Dubai Creek by wooden abra for about one dirham to Deira's Gold Souk and Spice Souk — the trading Dubai that existed long before the skyline.",
+      "image_needed": true
+    },
+    {
+      "name": "Palm Jumeirah",
+      "description": "The famous man-made palm island — ride the monorail up its spine to the crown, with skyline-and-sea views from The View at The Palm.",
+      "image_needed": true
+    },
+    {
+      "name": "Dubai Frame & Museum of the Future",
+      "description": "Two of the city's newest icons: a 150 m golden picture-frame with old Dubai on one side and new on the other, and the torus-shaped Museum of the Future on Sheikh Zayed Road.",
+      "image_needed": true
+    }
+  ],
+  "activities": [
+    "Sunset slot at the Burj Khalifa observation decks, then the fountain show",
+    "Evening desert safari with dune bashing and a BBQ camp dinner",
+    "Abra crossing and a wander through the Gold and Spice Souks",
+    "Dinner cruise through the Dubai Marina skyscraper canyon",
+    "Beach afternoon at JBR or Kite Beach with the skyline behind",
+    "Aquarium walk-through at Dubai Mall",
+    "Palm Jumeirah monorail and viewpoint",
+    "Seasonal visits to Global Village and Miracle Garden (roughly Nov–Apr)"
+  ],
+  "sample_itinerary_days": 6,
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }

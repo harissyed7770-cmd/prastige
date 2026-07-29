@@ -6,12 +6,25 @@
   "duration": "5 Nights / 6 Days",
   "tier": "Luxury",
   "audience": "Couples",
-  "summary": "",
-  "highlights": [],
-  "itinerary": [],
+  "summary": "Six days of Dubai at full polish: a sunset slot at the top of the world's tallest building, a private-feeling desert evening of dunes and starlit BBQ, marina dinner cruises and Palm views — with one morning kept aside for the old city's gold and spice souks, reached the proper way, by one-dirham abra.",
+  "highlights": [
+    "Burj Khalifa At the Top at sunset, fountain show after",
+    "Evening desert safari with BBQ camp dinner",
+    "Dubai Marina dinner cruise",
+    "Old Dubai souk morning and Palm Jumeirah day"
+  ],
+  "itinerary": [
+    { "day": 1, "title": "Arrive & the Marina", "description": "Airport pickup, check-in, first-night dinner cruise through the Dubai Marina skyline." },
+    { "day": 2, "title": "Downtown Dubai", "description": "Dubai Mall and its aquarium, sunset at the Burj Khalifa observation decks, and the fountain show from the promenade." },
+    { "day": 3, "title": "Desert evening", "description": "Free morning by the pool or beach, afternoon pickup for dune bashing, a camel ride at sunset, and BBQ dinner with live shows at a desert camp." },
+    { "day": 4, "title": "Old Dubai & new icons", "description": "Abra across the creek to the Gold and Spice Souks, Al Fahidi heritage lanes, then the Dubai Frame and Museum of the Future." },
+    { "day": 5, "title": "The Palm & the beach", "description": "Palm Jumeirah monorail and The View, lazy beach afternoon at JBR with the skyline behind." },
+    { "day": 6, "title": "Departure", "description": "Last-minute mall run or beach breakfast, airport drop." }
+  ],
   "inclusions": [],
   "exclusions": [],
-  "whatsapp_enquiry_prefill": "",
-  "content_status": "not_started",
+  "whatsapp_enquiry_prefill": "Hello, I'm interested in the Dubai Luxury Tour (5 Nights / 6 Days).\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:",
+  "notes_for_owner": "UAE visa handling for Indian passport holders is an operational detail to confirm and state accurately at build time. Inclusions/exclusions left empty for owner confirmation.",
+  "content_status": "researched_complete",
   "source": "researched_fresh"
 }
