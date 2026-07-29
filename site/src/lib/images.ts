@@ -367,6 +367,38 @@ const DESTINATION_IMAGES: Record<string, DestinationImages> = {
       },
     },
   },
+  singapore: {
+    hero: {
+      src: "/images/singapore/hero.jpg",
+      alt: "Marina Bay illuminated at night, the ArtScience Museum's lotus-shaped roof and the CBD skyline reflected in the water",
+    },
+    attractions: {
+      "Gardens by the Bay": {
+        src: "/images/singapore/supertree-grove.jpg",
+        alt: "The elevated canopy walkway threading between the towering steel Supertrees at Gardens by the Bay",
+      },
+      "Marina Bay Sands SkyPark": {
+        src: "/images/singapore/marina-bay-sands.jpg",
+        alt: "Marina Bay Sands' three towers topped by the ship-shaped SkyPark, palm trees visible along its rooftop edge",
+      },
+      "Sentosa & Universal Studios": {
+        src: "/images/singapore/sentosa-universal.jpg",
+        alt: "Hollywood Boulevard at Universal Studios Singapore, palm-lined under a vaulted glass canopy with visitors strolling",
+      },
+      "Night Safari": {
+        src: "/images/singapore/night-safari.jpg",
+        alt: "A spotted serval cat prowling along a path at Singapore's Night Safari, illuminated against the dark surroundings",
+      },
+      "Hawker centres": {
+        src: "/images/singapore/hawker-centre.jpg",
+        alt: "Maxwell Food Centre's low heritage roofline and palm trees set against Singapore's glass-tower skyline",
+      },
+      "Jewel Changi": {
+        src: "/images/singapore/jewel-changi.jpg",
+        alt: "The Rain Vortex pouring through the centre of Jewel Changi's latticed glass dome into a planted forest valley below",
+      },
+    },
+  },
 };
 
 export function destinationHero(slug: string): ImageEntry | undefined {
