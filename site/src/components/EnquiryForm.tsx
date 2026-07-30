@@ -208,7 +208,7 @@ export function EnquiryForm({
               <label htmlFor="year" className={label}>Year</label>
               <select className={field} {...inputProps("year")}>
                 <option value="">—</option>
-                {[0, 1].map((n) => {
+                {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => {
                   const y = new Date().getFullYear() + n;
                   return <option key={y}>{y}</option>;
                 })}
