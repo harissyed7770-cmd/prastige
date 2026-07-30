@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getAbout, getContact, waGenericUrl } from "@/lib/content";
 import { NAV_LINKS } from "./Header";
@@ -22,10 +23,13 @@ export function Footer() {
     <footer id="site-footer" className="bg-primary-700 text-paper-0">
       <div className="mx-auto grid max-w-[1200px] gap-10 px-4 py-16 md:grid-cols-2 lg:grid-cols-[4fr_3fr_3fr_4fr] lg:px-12">
         <div>
-          <p className="font-display text-xl font-semibold">{contact.business_name}</p>
-          <p className="mt-1 text-[13px] font-semibold uppercase tracking-[0.08em] text-primary-100">
-            Where Great Journey Begins
-          </p>
+          <Image
+            src="/logo/prestige-logo.png"
+            alt={`${contact.business_name} – Where Great Journey Begins`}
+            width={827}
+            height={603}
+            className="h-auto w-[190px]"
+          />
           <p className="mt-4 max-w-[38ch] text-sm text-primary-100">
             Domestic and international holidays planned person-to-person from
             Bengaluru — built around your dates, budget and pace.

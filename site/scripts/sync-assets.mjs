@@ -8,6 +8,8 @@ const imgSrc = path.resolve(here, "..", "..", "assets", "images");
 const imgDest = path.resolve(here, "..", "public", "images");
 const videoSrc = path.resolve(here, "..", "..", "assets", "video");
 const videoDest = path.resolve(here, "..", "public", "video");
+const logoSrc = path.resolve(here, "..", "..", "assets", "logo");
+const logoDest = path.resolve(here, "..", "public", "logo");
 
 if (fs.existsSync(imgSrc)) {
   fs.mkdirSync(imgDest, { recursive: true });
@@ -18,4 +20,9 @@ if (fs.existsSync(videoSrc)) {
   fs.mkdirSync(videoDest, { recursive: true });
   fs.cpSync(videoSrc, videoDest, { recursive: true });
   console.log(`synced assets/video -> public/video`);
+}
+if (fs.existsSync(logoSrc)) {
+  fs.mkdirSync(logoDest, { recursive: true });
+  fs.cpSync(logoSrc, logoDest, { recursive: true });
+  console.log(`synced assets/logo -> public/logo`);
 }

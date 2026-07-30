@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getContact, waGenericUrl } from "@/lib/content";
 import { WhatsAppIcon } from "./icons";
@@ -20,12 +21,22 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-paper-200 bg-paper-50/[0.92] backdrop-blur">
       <div className="mx-auto flex h-[60px] max-w-[1200px] items-center justify-between px-4 lg:h-[72px] lg:px-12">
-        <Link href="/" className="flex flex-col leading-tight">
-          <span className="font-display text-lg font-semibold text-primary-700 lg:text-xl">
-            {contact.business_name}
-          </span>
-          <span className="hidden text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-600 lg:block">
-            Where Great Journey Begins
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image
+            src="/logo/prestige-icon.png"
+            alt=""
+            width={97}
+            height={81}
+            className="h-10 w-auto lg:h-12"
+            priority
+          />
+          <span className="flex flex-col leading-tight">
+            <span className="font-display text-lg font-semibold text-primary-700 lg:text-xl">
+              {contact.business_name}
+            </span>
+            <span className="hidden text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-600 lg:block">
+              Where Great Journey Begins
+            </span>
           </span>
         </Link>
 
