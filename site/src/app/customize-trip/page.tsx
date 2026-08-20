@@ -3,10 +3,22 @@ import { EnquiryForm } from "@/components/EnquiryForm";
 import { Phone, WhatsAppIcon } from "@/components/icons";
 import { getContact, waGenericUrl } from "@/lib/content";
 
+const TITLE = "Customize Your Trip — Build a Holiday from Scratch";
+const DESCRIPTION =
+  "Build a holiday from scratch — tell us your destination, dates, budget and hotel preference, and Prestige Holidays 4U plans the itinerary around you.";
+
 export const metadata: Metadata = {
-  title: "Customize your trip",
-  description:
-    "Build a holiday from scratch — tell us your destination, dates, budget and hotel preference, and Prestige Holidays 4U plans the itinerary around you.",
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: [
+    "customized holiday package Bangalore",
+    "custom tour itinerary India",
+    "personalized travel planning Bengaluru",
+    "tailor-made holiday package",
+  ],
+  alternates: { canonical: "/customize-trip" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/customize-trip" },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 };
 
 const STEPS = [

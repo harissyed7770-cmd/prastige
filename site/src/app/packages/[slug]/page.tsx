@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/Button";
 import { Calendar, Check, WhatsAppIcon } from "@/components/icons";
+import { JsonLd } from "@/components/JsonLd";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SmartImage } from "@/components/SmartImage";
 import { getContact, getDestination, getPackage, getPackages, waUrl } from "@/lib/content";
 import { destinationHero } from "@/lib/images";
+import { breadcrumbJsonLd, tripJsonLd } from "@/lib/seo";
 
 const TIER_STYLES = {
   Standard: "bg-paper-100 text-ink-600",
@@ -23,7 +25,35 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const p = getPackage((await params).slug);
-  return { title: `${p.name} — ${p.duration}`, description: p.summary };
+  const dest = getDestination(p.destination_slug);
+  const title = `${p.name} — ${p.duration} | ${p.tier} Package from Bengaluru`;
+  const image = destinationHero(dest.slug)?.src ?? "/og/default.png";
+
+  return {
+    title,
+    description: p.summary,
+    keywords: [
+      `${p.name}`,
+      `${dest.name} package from Bengaluru`,
+      `${dest.name} tour package ${p.duration}`,
+      `${p.tier} ${dest.name} package`,
+      `${dest.name} package for ${p.audience.toLowerCase()}`,
+      ...p.highlights,
+    ],
+    alternates: { canonical: `/packages/${p.slug}` },
+    openGraph: {
+      title,
+      description: p.summary,
+      url: `/packages/${p.slug}`,
+      images: [{ url: image, width: 1200, height: 630, alt: p.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: p.summary,
+      images: [image],
+    },
+  };
 }
 
 export default async function PackagePage({
@@ -39,6 +69,16 @@ export default async function PackagePage({
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", url: "/" },
+            { name: "Packages", url: "/packages" },
+            { name: pkg.name, url: `/packages/${pkg.slug}` },
+          ]),
+          tripJsonLd(pkg, dest.name),
+        ]}
+      />
       <section className="relative flex min-h-[420px] items-end lg:h-[56vh]">
         <div className="absolute inset-0">
           <SmartImage

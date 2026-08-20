@@ -1,13 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/Button";
 import { CTABand } from "@/components/CTABand";
 import { DestinationCard } from "@/components/DestinationCard";
 import { FadeIn } from "@/components/FadeIn";
 import { HeroVideo } from "@/components/HeroVideo";
+import { JsonLd } from "@/components/JsonLd";
 import { PackageCard } from "@/components/PackageCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Testimonials } from "@/components/Testimonials";
 import { getAbout, getDestinations, getPackages } from "@/lib/content";
+import { faqJsonLd } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const FEATURED_SLUGS = ["kerala", "rajasthan", "kashmir", "maldives", "switzerland", "dubai"];
 const TEASER_PACKAGES = ["goa-family-holiday", "rajasthan-heritage-tour", "dubai-luxury-tour"];
@@ -36,9 +43,44 @@ export default function Home() {
   const about = getAbout();
   const featured = FEATURED_SLUGS.map((s) => destinations.find((d) => d.slug === s)!);
   const teasers = TEASER_PACKAGES.map((s) => packages.find((p) => p.slug === s)!);
+  const domesticCount = destinations.filter((d) => d.category === "domestic").length;
+  const internationalCount = destinations.filter((d) => d.category === "international").length;
+
+  const faqs = [
+    {
+      question: "Which destinations does Prestige Holidays 4U cover?",
+      answer: `${destinations.length} destinations in total — ${domesticCount} domestic (Goa, Kerala, Rajasthan, Delhi, Sikkim and Kashmir) and ${internationalCount} international (France, Switzerland, UAE, Thailand, Azerbaijan, Singapore, Maldives and Dubai). We plan trips to all of them, plus fully custom itineraries beyond this list.`,
+    },
+    {
+      question: "Do Indians need a visa to visit Thailand?",
+      answer:
+        "No — Indian passport holders can enter Thailand visa-free for up to 60 days. You'll still need to complete the Thailand Digital Arrival Card (TDAC) online before departure.",
+    },
+    {
+      question: "How do I book a trip with Prestige Holidays 4U?",
+      answer:
+        "Message us on WhatsApp with your destination, travel dates, budget and departure city. We reply with a real day-by-day itinerary built by a person, which you can adjust before confirming — no account or online form required.",
+    },
+    {
+      question: "Can I customize a package instead of choosing a fixed one?",
+      answer:
+        "Yes. Every fixed package can be adjusted, and we also build fully custom itineraries from scratch through the Customize Trip page — tell us your dates, budget and travel style and we plan around you.",
+    },
+    {
+      question: "Where is Prestige Holidays 4U based?",
+      answer:
+        "We're based in HBR Layout, Bengaluru, Karnataka, and plan both domestic Indian holidays and international trips departing from Bengaluru and other Indian cities.",
+    },
+    {
+      question: "What is the best time to visit Goa?",
+      answer:
+        "November to February, when days are dry and 21–32°C with a calm, clear sea. January is the sweet spot — peak-season weather without the December crowds.",
+    },
+  ];
 
   return (
     <>
+      <JsonLd data={faqJsonLd(faqs)} />
       <section className="relative flex min-h-[420px] items-end lg:h-[72vh]">
         <div className="absolute inset-0">
           <HeroVideo />
@@ -147,6 +189,23 @@ export default function Home() {
       </section>
 
       <Testimonials />
+
+      <section className="mx-auto max-w-[1200px] px-4 py-24 lg:px-12">
+        <SectionHeading eyebrow="Good to know" title="Frequently asked questions" center />
+        <div className="mx-auto max-w-[68ch] space-y-3">
+          {faqs.map((f) => (
+            <details
+              key={f.question}
+              className="group rounded-xl bg-paper-0 p-6 shadow-card open:shadow-raised"
+            >
+              <summary className="cursor-pointer list-none font-display text-lg font-semibold text-ink-900 marker:content-none">
+                {f.question}
+              </summary>
+              <p className="mt-3 text-ink-600">{f.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <CTABand />
     </>

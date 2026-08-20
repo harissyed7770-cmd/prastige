@@ -5,6 +5,7 @@ import { CTABand } from "@/components/CTABand";
 import { DestinationCard } from "@/components/DestinationCard";
 import { FadeIn } from "@/components/FadeIn";
 import { Calendar, Check, WhatsAppIcon } from "@/components/icons";
+import { JsonLd } from "@/components/JsonLd";
 import { PackageCard } from "@/components/PackageCard";
 import { SmartImage } from "@/components/SmartImage";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -15,6 +16,7 @@ import {
   waUrl,
 } from "@/lib/content";
 import { attractionImage, destinationHero } from "@/lib/images";
+import { breadcrumbJsonLd, destinationJsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getDestinations().map((d) => ({ slug: d.slug }));
@@ -26,7 +28,37 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const d = getDestination((await params).slug);
-  return { title: `${d.name} — ${d.tagline}`, description: d.hero_description };
+  const title = `${d.name} Tour Packages from Bengaluru — ${d.tagline}`;
+  const attractionNames = d.top_attractions.map((a) => a.name);
+  const image = destinationHero(d.slug)?.src ?? "/og/default.png";
+  const categoryLabel = d.category === "domestic" ? "domestic" : "international";
+
+  return {
+    title,
+    description: d.hero_description,
+    keywords: [
+      `${d.name} tour package`,
+      `${d.name} package from Bengaluru`,
+      `Bengaluru to ${d.name}`,
+      `${d.name} holiday package`,
+      `best time to visit ${d.name}`,
+      `${categoryLabel} tour packages from Bangalore`,
+      ...attractionNames,
+    ],
+    alternates: { canonical: `/destinations/${d.slug}` },
+    openGraph: {
+      title,
+      description: d.hero_description,
+      url: `/destinations/${d.slug}`,
+      images: [{ url: image, width: 1200, height: 630, alt: d.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: d.hero_description,
+      images: [image],
+    },
+  };
 }
 
 export default async function DestinationPage({
@@ -44,8 +76,21 @@ export default async function DestinationPage({
     `Hello, I would like to enquire about a trip to ${d.name}.\n\nTravel Dates:\nNumber of Adults:\nNumber of Children:\nBudget Range:\nDeparture City:\nHotel Preference (3★ / 4★ / 5★):\nAdditional Requirements:`,
   );
 
+  const categoryUrl = d.category === "domestic" ? "/domestic" : "/international";
+  const categoryName = d.category === "domestic" ? "Domestic" : "International";
+
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", url: "/" },
+            { name: categoryName, url: categoryUrl },
+            { name: d.name, url: `/destinations/${d.slug}` },
+          ]),
+          destinationJsonLd(d),
+        ]}
+      />
       <section className="relative flex min-h-[420px] items-end lg:h-[56vh]">
         <div className="absolute inset-0">
           <SmartImage

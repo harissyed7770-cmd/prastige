@@ -3,10 +3,22 @@ import { EnquiryForm } from "@/components/EnquiryForm";
 import { Clock, Mail, MapPin, Phone, WhatsAppIcon } from "@/components/icons";
 import { getContact, waGenericUrl } from "@/lib/content";
 
+const TITLE = "Contact Us — Prestige Holidays 4U, HBR Layout, Bengaluru";
+const DESCRIPTION =
+  "Reach Prestige Holidays 4U in Bengaluru — phone, WhatsApp, email, or the enquiry form. Office in HBR Layout, open Monday to Sunday.";
+
 export const metadata: Metadata = {
-  title: "Contact us",
-  description:
-    "Reach Prestige Holidays 4U in Bengaluru — phone, WhatsApp, email, or the enquiry form. Office in HBR Layout, open Monday to Sunday.",
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: [
+    "travel agency HBR Layout Bengaluru",
+    "travel agency contact Bangalore",
+    "travel agency near me Bengaluru",
+    "book holiday package Bangalore WhatsApp",
+  ],
+  alternates: { canonical: "/contact" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/contact" },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 };
 
 export default function ContactPage() {

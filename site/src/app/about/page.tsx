@@ -4,10 +4,22 @@ import { FadeIn } from "@/components/FadeIn";
 import { SectionHeading } from "@/components/SectionHeading";
 import { getAbout, getServices } from "@/lib/content";
 
+const TITLE = "About Us — Bengaluru's Person-to-Person Travel Agency";
+const DESCRIPTION =
+  "Prestige Holidays 4U is a Bengaluru-based travel agency planning domestic and international holidays person-to-person — honest itineraries, WhatsApp-first support.";
+
 export const metadata: Metadata = {
-  title: "About us",
-  description:
-    "Prestige Holidays 4U is a Bengaluru-based travel agency planning domestic and international holidays person-to-person — honest itineraries, WhatsApp-first support.",
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: [
+    "best travel agency in Bengaluru",
+    "best travel agency in Bangalore",
+    "trusted travel agency Bangalore",
+    "travel agency HBR Layout Bengaluru",
+  ],
+  alternates: { canonical: "/about" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/about" },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 };
 
 export default function AboutPage() {

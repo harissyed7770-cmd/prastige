@@ -5,10 +5,23 @@ import { PackageCard } from "@/components/PackageCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { getPackages } from "@/lib/content";
 
+const TITLE = "Tour Packages from Bengaluru — Full Day-by-Day Itineraries";
+const DESCRIPTION =
+  "Seven tour packages with full day-by-day itineraries — Goa, Kerala, Rajasthan and Sikkim in India; Dubai, Switzerland and France abroad. Read the plan before you enquire.";
+
 export const metadata: Metadata = {
-  title: "Tour packages",
-  description:
-    "Seven tour packages with full day-by-day itineraries — Goa, Kerala, Rajasthan and Sikkim in India; Dubai, Switzerland and France abroad. Read the plan before you enquire.",
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: [
+    "tour packages from Bengaluru",
+    "tour packages from Bangalore",
+    "family holiday packages India",
+    "honeymoon tour packages",
+    "customized tour packages",
+  ],
+  alternates: { canonical: "/packages" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/packages" },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
 };
 
 export default function PackagesPage() {
